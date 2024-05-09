@@ -1,0 +1,1983 @@
+############ NEW START ############
+############ TASK ############
+Task:  heat_flow
+Task type:  accurate
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  1.0*x1*x2*x3
+Complexity:  5
+RMSE:  0.0
+######### End Of This Expression #########
+############ RESULT ############
+Task:  heat_flow
+Task type:  accurate
+Number of programs in the Pareto front:  1
+Less Complexity pareto optimal programs:
+1.0*x1*x2*x3
+Complexity	R2
+5
+Validation RMSE:  0.0
+############## END ##############
+############ TASK ############
+Task:  heat_flow
+Task type:  high_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  x1*x3
+Complexity:  3
+RMSE:  18.34284389528704
+######### End Of This Expression #########
+Expression:  0.0011594830385370126*x2*x3
+Complexity:  4
+RMSE:  10.117071053381906
+######### End Of This Expression #########
+Expression:  0.0011587173765572737*x3*(x1 + x2)
+Complexity:  6
+RMSE:  10.08956269358734
+######### End Of This Expression #########
+Expression:  x2*x3*sin(x1)
+Complexity:  7
+RMSE:  5.188251148133207e-12
+######### End Of This Expression #########
+############ RESULT ############
+Task:  heat_flow
+Task type:  high_var
+Number of programs in the Pareto front:  4
+Less Complexity pareto optimal programs:
+x1*x3
+Complexity	R2
+3
+Validation RMSE:  18.34284389528704
+############## END ##############
+############ TASK ############
+Task:  heat_flow
+Task type:  middle_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  1.0*x1*x2*x3
+Complexity:  5
+RMSE:  0.0
+######### End Of This Expression #########
+############ RESULT ############
+Task:  heat_flow
+Task type:  middle_var
+Number of programs in the Pareto front:  1
+Less Complexity pareto optimal programs:
+1.0*x1*x2*x3
+Complexity	R2
+5
+Validation RMSE:  0.0
+############## END ##############
+############ TASK ############
+Task:  heat_flow
+Task type:  low_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  0.7300142113629888*x1*x3
+Complexity:  4
+RMSE:  7.03005551368503
+######### End Of This Expression #########
+Expression:  1.0*x1*x2*x3
+Complexity:  5
+RMSE:  0.0
+######### End Of This Expression #########
+############ RESULT ############
+Task:  heat_flow
+Task type:  low_var
+Number of programs in the Pareto front:  2
+Less Complexity pareto optimal programs:
+0.7300142113629888*x1*x3
+Complexity	R2
+4
+Validation RMSE:  7.03005551368503
+############## END ##############
+############ TASK ############
+Task:  heat_flow
+Task type:  noise_0.02
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 68.8s, expression: X1*X3*(X2 + 0.0016985741942226675*cos(X1)), loss: 0.019321093192163814, form: X1*X2*X3+F
+Episode: 3/10, time: 128.96s, expression: X1*X2*(-0.00154607139081734*X1*X2*X3*(X1 - X2**2*X3/X1) + X3), loss: 0.012877423250975469, form: X1*X2*X3+F
+Episode: 4/10, time: 177.36s, expression: X1*X2*(-0.00154607139081734*X1*X2*X3*(X1 - X2**2*X3/X1) + X3), loss: 0.012877423250975469, form: C*X1*X2*X3+F
+Episode: 5/10, time: 232.64s, expression: X1*X2*(-0.00154607139081734*X1*X2*X3*(X1 - X2**2*X3/X1) + X3), loss: 0.012877423250975469, form: C*X1*X2*X3+F
+Episode: 6/10, time: 286.17s, expression: X1*X2*(-0.00154607139081734*X1*X2*X3*(X1 - X2**2*X3/X1) + X3), loss: 0.012877423250975469, form: C*X1*X2*X3+F
+Episode: 7/10, time: 515.65s, expression: X1*X2*(-0.0069077611308847229*X1*X2*X3*(X1 - X2) + X3), loss: 0.012450666508845087, form: C*X1*X2*X3+F
+Episode: 8/10, time: 641.48s, expression: X1*X2*(-0.0069077611308847229*X1*X2*X3*(X1 - X2) + X3), loss: 0.012450666508845087, form: C*X1*X2*X3+F
+Episode: 9/10, time: 805.6s, expression: X1*X2*(-0.0069077611308847229*X1*X2*X3*(X1 - X2) + X3), loss: 0.012450666508845087, form: C*X1*X2*X3+F
+Episode: 10/10, time: 980.26s, expression: X1*X2*(-0.0069077611308847229*X1*X2*X3*(X1 - X2) + X3), loss: 0.012450666508845087, form: C*X1*X2*X3+F
+############ Pareto Boundary Program ############
+Expression:  x1*x3*(x2 + 0.0016985741942226675*cos(x1))
+Complexity:  11
+RMSE:  0.019321093192163814
+######### End Of This Expression #########
+Expression:  x1*x2*(-0.000948280808363905*x1*cos(x2) + x3)
+Complexity:  12
+RMSE:  0.019265362435537944
+######### End Of This Expression #########
+Expression:  x1*x2*(-0.009313017902877049*x3*(x1 - x2) + x3)
+Complexity:  13
+RMSE:  0.014110299241413781
+######### End Of This Expression #########
+Expression:  x1*x2*(-0.0069077611308847229*x1*x2*x3*(x1 - x2) + x3)
+Complexity:  15
+RMSE:  0.012450666508845087
+######### End Of This Expression #########
+############ RESULT ############
+Task:  heat_flow
+Task type:  noise_0.02
+Number of programs in the Pareto front:  4
+Less Complexity pareto optimal programs:
+x1*x3*(x2 + 0.0016985741942226675*cos(x1))
+Complexity	R2
+11
+Validation RMSE:  0.019321093192163814
+############## END ##############
+############ TASK ############
+Task:  heat_flow
+Task type:  noise_0.05
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 63.45s, expression: 1.019199914866782*X1*X2*X3, loss: 0.025965123829704145, form: C*X1*X2*X3+F
+Episode: 3/10, time: 175.67s, expression: log(exp(X1*X2*X3) + sin(0.02591503656730087*X1**2*X2**3*X3**3*exp(X1))), loss: 0.0182475598591064, form: log(exp(X1*X2*X3)+sin(C*X1**2*X2**3*X3**3*exp(X1)))+F
+Episode: 4/10, time: 262.67s, expression: log(exp(X1*X2*X3) + sin(0.02591503656730087*X1**2*X2**3*X3**3*exp(X1))), loss: 0.0182475598591064, form: C*X1*X2*X3-C*X2*X3+X1*X2*X3+F
+Episode: 5/10, time: 323.09s, expression: log(exp(X1*X2*X3) + sin(0.02591503656730087*X1**2*X2**3*X3**3*exp(X1))), loss: 0.0182475598591064, form: C*X1*X2*X3+F
+Episode: 6/10, time: 385.75s, expression: log(exp(X1*X2*X3) + sin(0.02591503656730087*X1**2*X2**3*X3**3*exp(X1))), loss: 0.0182475598591064, form: C*X1*X2*X3+F
+Episode: 7/10, time: 621.58s, expression: log(exp(X1*X2*X3) + sin(0.001621947598976328*X1**2*X2**4*X3**6*exp(2*X1))), loss: 0.01696624198399435, form: C*X1*X2*X3+F
+Episode: 8/10, time: 767.34s, expression: X3*(X1*X2 + 0.027272133629019785*X2**2*sin(X1)*sin(X1*X2*X3)), loss: 0.01692329856663087, form: X1*X2*X3+C*X2*X3**2*sin(X1)*sin(X1*X2*X3)+C*X2*X3*exp(sin(X1))*sin(X1*X2*X3)+F
+Episode: 9/10, time: 943.66s, expression: X3*(X1*X2 + 0.027272133629019785*X2**2*sin(X1)*sin(X1*X2*X3)), loss: 0.01692329856663087, form: X1*X2*X3/C+F
+Episode: 10/10, time: 1105.42s, expression: X3*(X1*X2 + 0.027272133629019785*X2**2*sin(X1)*sin(X1*X2*X3)), loss: 0.01692329856663087, form: X1*X2*X3/C+F
+############ Pareto Boundary Program ############
+Expression:  x3*(x1*x2 + 0.027272133629019785*x2**2*sin(x1)*sin(x1*x2*x3))
+Complexity:  23
+RMSE:  0.01692329856663087
+######### End Of This Expression #########
+############ RESULT ############
+Task:  heat_flow
+Task type:  noise_0.05
+Number of programs in the Pareto front:  1
+Less Complexity pareto optimal programs:
+x3*(x1*x2 + 0.027272133629019785*x2**2*sin(x1)*sin(x1*x2*x3))
+Complexity	R2
+23
+Validation RMSE:  0.01692329856663087
+############## END ##############
+############ TASK ############
+Task:  heat_flow
+Task type:  noise_0.1
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 50.7s, expression: X1*X2*(X3 - 0.0031340221692627555), loss: 0.3614370943384524, form: C*X1*X2*X3+F
+Episode: 3/10, time: 118.37s, expression: X1*X2*X3*exp(-0.01677661195725548*X1**2), loss: 0.34181789138295576, form: 2*X1*X2*X3/C+X1*X2*X3/C+F
+Episode: 4/10, time: 193.96s, expression: X2*X3*(0.02096588562552856*X1**2*X3**2*exp(X1*X3)*log(X3)*cos(X1) + X1), loss: 0.19620800781503758, form: -C*X1**2*X2*X3**2*exp(X1*X3)*sin(log(X3))*cos(X1)+X1*X2*X3+C*X1**2*X2*X3**2*exp(X1*X3)*log(X3)*cos(X1)+F
+Episode: 5/10, time: 251.94s, expression: X2*X3*(0.02096588562552856*X1**2*X3**2*exp(X1*X3)*log(X3)*cos(X1) + X1), loss: 0.19620800781503758, form: X1*X2*X3/C+X1*X2*X3/(2*C)+F
+Episode: 6/10, time: 319.49s, expression: X2*X3*(0.02096588562552856*X1**2*X3**2*exp(X1*X3)*log(X3)*cos(X1) + X1), loss: 0.19620800781503758, form: X1*X2*X3*cos(C*X1**3*X2+C*X1**3*X3-C*X1*X2**2-C*X1*X2*X3)+X1*X2*X3*cos(X1+X1**2/C)+F
+Episode: 7/10, time: 535.46s, expression: X1*X2*X3*exp(-exp(-exp(0.6706725851129559/X3))*sin(X1*log(X2))*sin(exp(X1))), loss: 0.10450149452156679, form: X1*X2*X3*exp(-C*X1*log(X2)*sin(exp(X1)))+X1*X2*X3*exp(-X3*log(X2)*sin(exp(X1))/(2*C))+F
+Episode: 8/10, time: 638.97s, expression: X1*X2*X3*exp(-exp(-exp(0.6706725851129559/X3))*sin(X1*log(X2))*sin(exp(X1))), loss: 0.10450149452156679, form: C*X1*X2*X3+X1*X2*X3/C+F
+Episode: 9/10, time: 835.11s, expression: X1*X2*X3*exp(-exp(-exp(0.6706725851129559/X3))*sin(X1*log(X2))*sin(exp(X1))), loss: 0.10450149452156679, form: C*X1*X2*X3+F
+Episode: 10/10, time: 1066.12s, expression: X1*X2*X3*exp(-exp(-exp(0.6706725851129559/X3))*sin(X1*log(X2))*sin(exp(X1))), loss: 0.10450149452156679, form: X1*X2*X3*cos(C*X1**2+X1)+X1*X2*X3*cos(C*X1**2-X1)+F
+############ Pareto Boundary Program ############
+Expression:  x1*x2*x3*exp(-0.04854880505527865*x1*x2*sin(exp(x1)))
+Complexity:  16
+RMSE:  0.16194521277194604
+######### End Of This Expression #########
+Expression:  x1*x2*x3*exp(-0.1409911914182509*x1*log(x2)*sin(exp(x1)))
+Complexity:  18
+RMSE:  0.13868222801004368
+######### End Of This Expression #########
+Expression:  x1*x2*x3*exp(-0.174997649658273*x1*sin(exp(x1))*sin(log(x2)))
+Complexity:  21
+RMSE:  0.1330269948771608
+######### End Of This Expression #########
+Expression:  x1*x2*x3*exp(-0.1274146663279096*x1*x3*sin(exp(x1))*sin(log(x2)))
+Complexity:  22
+RMSE:  0.11433296585353561
+######### End Of This Expression #########
+Expression:  x1*x2*x3*exp(-0.04976355482580244*exp(x3)*sin(x1*log(x2))*sin(exp(x1)))
+Complexity:  25
+RMSE:  0.11097258501222854
+######### End Of This Expression #########
+Expression:  x1*x2*x3*exp(-exp(-2.233053016090244/x3)*sin(x1*log(x2))*sin(exp(x1)))
+Complexity:  30
+RMSE:  0.1078644386882593
+######### End Of This Expression #########
+Expression:  x1*x2*x3*exp(-exp(-exp(0.6706725851129559/x3))*sin(x1*log(x2))*sin(exp(x1)))
+Complexity:  34
+RMSE:  0.10450149452156679
+######### End Of This Expression #########
+############ RESULT ############
+Task:  heat_flow
+Task type:  noise_0.1
+Number of programs in the Pareto front:  7
+Less Complexity pareto optimal programs:
+x1*x2*x3*exp(-0.04854880505527865*x1*x2*sin(exp(x1)))
+Complexity	R2
+16
+Validation RMSE:  0.16194521277194604
+############## END ##############
+############ TASK ############
+Task:  heat_flow
+Task type:  noise_0.2
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 50.92s, expression: X1*X2*X3 + 0.039999312062785834*X2*X3, loss: 1.1267082617839832, form: X1*X2*X3+C+F
+Episode: 3/10, time: 108.3s, expression: X1*X2*X3/cos(0.69811720837830216*X2**2 - X2), loss: 0.7547443686106695, form: X1*X2*X3/cos(C*X2*log(X2))+X1*X2*X3/cos(C*X2**2*log(X2))+F
+Episode: 4/10, time: 191.54s, expression: X1*X2*X3/cos(0.69811720837830216*X2**2 - X2), loss: 0.7547443686106695, form: X1*X2*exp(-C*X2*X3*sin(X3))*sin(X3)+X1*X2*exp(X3*sin(X2)*sin(X3))*exp(-C*X3*sin(X2)*sin(X3))*sin(X3)+F
+Episode: 5/10, time: 237.41s, expression: X1*X2*X3/cos(0.69811720837830216*X2**2 - X2), loss: 0.7547443686106695, form: C*X1*X2*X3+F
+Episode: 6/10, time: 296.09s, expression: X1*X2*X3/cos(0.69811720837830216*X2**2 - X2), loss: 0.7547443686106695, form: X1*X2*X3/cos(X2*log(X2)/C)+X1*X2*X3/cos(C*X2*log(X2))+F
+Episode: 7/10, time: 514.43s, expression: X1*X2*X3/cos(0.69811720837830216*X2**2 - X2), loss: 0.7547443686106695, form: X2*exp(-C*log(X1*X3))+F
+Episode: 8/10, time: 644.26s, expression: X1*X2*X3/cos(0.69811720837830216*X2**2 - X2), loss: 0.7547443686106695, form: C*X1*X2*X3+F
+Episode: 9/10, time: 861.23s, expression: X1*X2*X3/cos(0.69811720837830216*X2**2 - X2), loss: 0.7547443686106695, form: X1*X2**2*X3**3*sin(X3**2)/C+X1*X2*X3+X1*X2**2*X3**2*sin(X3**2)/C+F
+Episode: 10/10, time: 1031.51s, expression: X1*X2*X3/cos(0.69811720837830216*X2**2 - X2), loss: 0.7547443686106695, form: C*X1*X2*X3+F
+############ Pareto Boundary Program ############
+Expression:  x1*x2*x3 + 0.039999312062785834*x2*x3
+Complexity:  9
+RMSE:  1.1267082617839832
+######### End Of This Expression #########
+Expression:  x1*x2*x3/cos(0.30870933681529195*x2)
+Complexity:  13
+RMSE:  0.9583160692576331
+######### End Of This Expression #########
+Expression:  x1*x2*x3/cos(x2*(x2 - 1.5659176185284798))
+Complexity:  15
+RMSE:  0.8324593917373811
+######### End Of This Expression #########
+Expression:  x1*x2*x3/cos(0.08784560735131917*x2**3)
+Complexity:  16
+RMSE:  0.795286325204081
+######### End Of This Expression #########
+Expression:  x1*x2*x3/cos(0.69811720837830216*x2**2 - x2)
+Complexity:  20
+RMSE:  0.7547443686106695
+######### End Of This Expression #########
+############ RESULT ############
+Task:  heat_flow
+Task type:  noise_0.2
+Number of programs in the Pareto front:  5
+Less Complexity pareto optimal programs:
+x1*x2*x3 + 0.039999312062785834*x2*x3
+Complexity	R2
+9
+Validation RMSE:  1.1267082617839832
+############## END ##############
+############ TASK ############
+Task:  heat_flow
+Task type:  noise_0.5
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 82.36s, expression: X1*X2*X3*sin(0.46402418313466465*exp(X2)), loss: 2.5381243216259324, form: F
+Episode: 3/10, time: 113.89s, expression: X1*X2*X3*sin(0.46402418313466465*exp(X2)), loss: 2.5381243216259324, form: X1*X3*sin(X2)+F
+Episode: 4/10, time: 151.59s, expression: X1*X2*X3*sin(0.46402418313466465*exp(X2)), loss: 2.5381243216259324, form: X1*X3*sin(X2)+F
+Episode: 5/10, time: 229.5s, expression: 0.04068194211192702*X2*(X3 + exp(X3))*exp(2*sin(X1)), loss: 2.3524426979043698, form: C*X2*exp(X3)*exp(2*sin(X1))+F
+Episode: 6/10, time: 295.86s, expression: X1*X2*exp(X3)/(4.157953930887857 + cos(exp(2*X3))/X3), loss: 2.06857571551531, form: X1*X2*exp(X3)/(2*C+exp(cos(exp(X1))))+X1*X2*exp(X3)/(C+cos(exp(X1)))+F
+Episode: 7/10, time: 512.49s, expression: X1*X2*exp(X3)/(exp(X2*cos(exp(2*X3))) + 3.0704789815448676), loss: 2.039952029618268, form: X2*exp(-C)*exp(X3)*sin(X1)+X1*X2*exp(-C)*exp(X3)+X2*exp(-C)*exp(X3)*sin(exp(X1)*exp(-X2))+F
+Episode: 8/10, time: 631.05s, expression: X1*X2*exp(X3)/(exp(X2*cos(exp(2*X3))) + 3.0704789815448676), loss: 2.039952029618268, form: X2*exp(X3)*exp(2*sin(X1))/C+C*X2*exp(X3)*exp(2*sin(X1))+F
+Episode: 9/10, time: 837.34s, expression: X1*X2*exp(X3)/(exp(X2*cos(exp(2*X3))) + 3.0704789815448676), loss: 2.039952029618268, form: X1*X2*exp(X3)/(C+log(X1))+X1*X2*exp(X3)/(-C+X1)+F
+Episode: 10/10, time: 1057.4s, expression: X1*X2*exp(X3)/(exp(X2*cos(exp(2*X3))) + 3.0704789815448676), loss: 2.039952029618268, form: 2*C*X2*exp(X3)*exp(X1*sin(X1+log(X1)))+exp(X3)*exp(X1*sin(X1+log(X1)))*sin(C*X2)+F
+############ Pareto Boundary Program ############
+Expression:  x1*x2*x3*sin(0.46402418313466465*exp(x2))
+Complexity:  12
+RMSE:  2.5381243216259324
+######### End Of This Expression #########
+Expression:  0.054359570634162344*x2*exp(x3)*exp(2*sin(x1))
+Complexity:  14
+RMSE:  2.4436460590711597
+######### End Of This Expression #########
+Expression:  0.04068194211192702*x2*(x3 + exp(x3))*exp(2*sin(x1))
+Complexity:  16
+RMSE:  2.3524426979043698
+######### End Of This Expression #########
+Expression:  x1*x2*exp(x3)/(cos(exp(2*x3)) + 4.195688919969642)
+Complexity:  19
+RMSE:  2.12610838465691
+######### End Of This Expression #########
+Expression:  x1*x2*exp(x3)/(exp(x2*cos(exp(2*x3))) + 3.0704789815448676)
+Complexity:  23
+RMSE:  2.039952029618268
+######### End Of This Expression #########
+############ RESULT ############
+Task:  heat_flow
+Task type:  noise_0.5
+Number of programs in the Pareto front:  5
+Less Complexity pareto optimal programs:
+x1*x2*x3*sin(0.46402418313466465*exp(x2))
+Complexity	R2
+12
+Validation RMSE:  2.5381243216259324
+############## END ##############
+############ TASK ############
+Task:  heat_flow
+Task type:  num_10
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F> /home/liwentao/RSRM/demo/demo.py(128)pipeline()
+-> print(f"Token {token} not in complexity dictionary")
+(Pdb) Traceback (most recent call last):
+  File "/home/liwentao/RSRM/demo/demo.py", line 177, in <module>
+    pipeline(f"../polymer_formula/{task_t}/{task}.csv")
+  File "/home/liwentao/RSRM/demo/demo.py", line 128, in pipeline
+    print(f"Token {token} not in complexity dictionary")
+  File "/home/liwentao/RSRM/demo/demo.py", line 128, in pipeline
+    print(f"Token {token} not in complexity dictionary")
+  File "/home/liwentao/miniconda3/envs/poly/lib/python3.9/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/home/liwentao/miniconda3/envs/poly/lib/python3.9/bdb.py", line 112, in dispatch_line
+    self.user_line(frame)
+  File "/home/liwentao/miniconda3/envs/poly/lib/python3.9/pdb.py", line 262, in user_line
+    self.interaction(frame, None)
+  File "/home/liwentao/miniconda3/envs/poly/lib/python3.9/pdb.py", line 357, in interaction
+    self._cmdloop()
+  File "/home/liwentao/miniconda3/envs/poly/lib/python3.9/pdb.py", line 322, in _cmdloop
+    self.cmdloop()
+  File "/home/liwentao/miniconda3/envs/poly/lib/python3.9/cmd.py", line 126, in cmdloop
+    line = input(self.prompt)
+OSError: [Errno 9] Bad file descriptor
+############ NEW START ############
+############ TASK ############
+Task:  avrami
+Task type:  accurate
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 74.03s, expression: 0.10301059633300816*X3*(2*X1 + X3/X2)*exp(X3), loss: 0.04655043168567281, form: F
+Episode: 3/10, time: 143.06s, expression: sin(X3)*sin(X1*(0.5801051397379138*X3 + X3/(X2 + X3))), loss: 0.018239973958619204, form: F
+Episode: 4/10, time: 212.74s, expression: X1*X3**2/log(0.9620605992281628*X1**2*X3 + 0.9620605992281628*X2 + 0.9620605992281628*X3 + 0.9620605992281628*X3**2/X2), loss: 0.0100636772523297, form: F
+Episode: 5/10, time: 284.8s, expression: X1*X3**2/log(0.9620605992281628*X1**2*X3 + 0.9620605992281628*X2 + 0.9620605992281628*X3 + 0.9620605992281628*X3**2/X2), loss: 0.0100636772523297, form: -C*sin(X1)*sin(X3)*cos(X2-X3)+X3*sin(X1)*sin(X3)+F
+Episode: 6/10, time: 357.01s, expression: X1*X3**2/log(0.9620605992281628*X1**2*X3 + 0.9620605992281628*X2 + 0.9620605992281628*X3 + 0.9620605992281628*X3**2/X2), loss: 0.0100636772523297, form: C*X1*log(cos(X3))/(X3+log(X1+X2))+F
+Episode: 7/10, time: 619.1s, expression: X1*X3**2/log(0.9620605992281628*X1**2*X3 + 0.9620605992281628*X2 + 0.9620605992281628*X3 + 0.9620605992281628*X3**2/X2), loss: 0.0100636772523297, form: X1*X3**2*cos(X3)/X2-C*X3**2*sin(X1)-X3**2*sin(C*X1)+X3**2*sin(X1)*cos(X3)/X2+F
+Episode: 8/10, time: 776.16s, expression: X1*X3**2/log(0.9620605992281628*X1**2*X3 + 0.9620605992281628*X2 + 0.9620605992281628*X3 + 0.9620605992281628*X3**2/X2), loss: 0.0100636772523297, form: C*X3*sin(X1)*cos(X3)/X2+C*X3**3*sin(X1)*sin(X3)+2*C*X3*sin(X1)*cos(X3)/X2+2*C*X3**3*sin(X1)*sin(X3)+F
+Episode: 9/10, time: 1121.3s, expression: X1*X3**2/log(0.9620605992281628*X1**2*X3 + 0.9620605992281628*X2 + 0.9620605992281628*X3 + 0.9620605992281628*X3**2/X2), loss: 0.0100636772523297, form: X1*X3**2/log(C*X2+X1/X2+X3)+F
+Episode: 10/10, time: 1356.24s, expression: X1*X3**2/log(0.9620605992281628*X1**2*X3 + 0.9620605992281628*X2 + 0.9620605992281628*X3 + 0.9620605992281628*X3**2/X2), loss: 0.0100636772523297, form: sin(X1*X3*exp(-C)*exp(X3))+X1*X3*exp(C)*exp(X3)+F
+############ Pareto Boundary Program ############
+Expression:  x1*x3**2/log(0.8411730812216067*x1 + 0.8411730812216067*x2 + 0.8411730812216067*x3**2 + 0.8411730812216067*x3)
+Complexity:  27
+RMSE:  0.012940532039910692
+######### End Of This Expression #########
+Expression:  x1*x3**2/log(0.9620605992281628*x1**2*x3 + 0.9620605992281628*x2 + 0.9620605992281628*x3 + 0.9620605992281628*x3**2/x2)
+Complexity:  35
+RMSE:  0.0100636772523297
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  accurate
+Number of programs in the Pareto front:  2
+Less Complexity pareto optimal programs:
+x1*x3**2/log(0.8411730812216067*x1 + 0.8411730812216067*x2 + 0.8411730812216067*x3**2 + 0.8411730812216067*x3)
+Complexity	R2
+27
+Validation RMSE:  0.012940532039910692
+############## END ##############
+############ TASK ############
+Task:  avrami
+Task type:  high_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 50.32s, expression: cos(1/X3), loss: 2.5667695289199577e-05, form: (C)*F
+Episode: 3/10, time: 98.76s, expression: 0.9999990600915226 + sin(X3)/X3**2, loss: 2.529383588093192e-05, form: (C)*F
+Episode: 4/10, time: 153.71s, expression: 0.9999990600915226 + sin(X3)/X3**2, loss: 2.529383588093192e-05, form: (C)*F
+Episode: 5/10, time: 193.93s, expression: 0.9999990600915226 + sin(X3)/X3**2, loss: 2.529383588093192e-05, form: (C)*F
+############ Pareto Boundary Program ############
+Expression:  cos(1/x3)
+Complexity:  7
+RMSE:  2.5667695289199577e-05
+######### End Of This Expression #########
+Expression:  0.9999990600915226 + sin(x3)/x3**2
+Complexity:  11
+RMSE:  2.529383588093192e-05
+######### End Of This Expression #########
+Expression:  exp(-0.005901810321352381/(x1**2*x3))
+Complexity:  12
+RMSE:  1.776141672020533e-05
+######### End Of This Expression #########
+Expression:  exp(-0.005901810312058437/(x1**2*x2*x3))
+Complexity:  16
+RMSE:  6.546773597672692e-06
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  high_var
+Number of programs in the Pareto front:  4
+Less Complexity pareto optimal programs:
+cos(1/x3)
+Complexity	R2
+7
+Validation RMSE:  2.5667695289199577e-05
+############## END ##############
+############ TASK ############
+Task:  avrami
+Task type:  middle_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 40.36s, expression: exp(-8.37062807132575/(exp(X3) + log(X2))), loss: 0.015979140161044413, form: (C)*F
+Episode: 3/10, time: 99.58s, expression: cos(0.10655898800953838/(X1**2*X3**2)), loss: 0.000658715449975533, form: cos(C/X1**4)+F
+Episode: 4/10, time: 161.75s, expression: cos(0.10655898800953838/(X1**2*X3**2)), loss: 0.000658715449975533, form: exp(log(X1)/(C*X1**2))+F
+Episode: 5/10, time: 213.76s, expression: cos((X1*X3)**(-7.388060397175612)), loss: 5.33009183095902e-05, form: cos(exp(C*X2)*exp(C*log(X1*X3)))+cos(exp(C*log(X1*X3))/X1)+F
+Episode: 6/10, time: 287.55s, expression: cos((X1*X3)**(-7.388060397175612)), loss: 5.33009183095902e-05, form: 1+C*exp(-X2)*sin(X2)/(X1**2*X3)+C*exp(-X2)*sin(X2)/(X1*X3*sin(X1))+F
+Episode: 7/10, time: 465.53s, expression: cos((X1*X3)**(-7.388060397175612)), loss: 5.33009183095902e-05, form: cos(C/X1**2)+F
+Episode: 8/10, time: 604.43s, expression: cos((X1*X3)**(-7.388060397175612)), loss: 5.33009183095902e-05, form: exp(1/(C*X1**2*X2**2*X3))+exp(1/(2*C*X1**2*X2**2*X3))+F
+Episode: 9/10, time: 788.1s, expression: cos((X1*X3)**(-7.388060397175612)), loss: 5.33009183095902e-05, form: cos(C/X1**2)+cos(C/(X1**2*X2+X1**2*X3))+F
+Episode: 10/10, time: 1018.07s, expression: cos((X1*X3)**(-7.388060397175612)), loss: 5.33009183095902e-05, form: cos(C/(X1*X3*exp(-X1)*exp(2*X2)+X2))+cos(C/(X1*X3*exp(-X1)*exp(2*X2)-3*X1+X2))+F
+############ Pareto Boundary Program ############
+Expression:  1
+Complexity:  1
+RMSE:  0.11089560961202591
+######### End Of This Expression #########
+Expression:  cos((x1*x3)**(-7.388060397175612))
+Complexity:  9
+RMSE:  5.33009183095902e-05
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  middle_var
+Number of programs in the Pareto front:  2
+Less Complexity pareto optimal programs:
+1
+Complexity	R2
+1
+Validation RMSE:  0.11089560961202591
+############## END ##############
+############ TASK ############
+Task:  avrami
+Task type:  low_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 85.81s, expression: 0.5005110633014288*cos(X1/(-X1 + 2*X3)) + 0.5005110633014288*cos(log(X1)/(-X1 + X3)), loss: 0.24445522997598673, form: cos(1)/C+F
+Episode: 3/10, time: 157.15s, expression: 0.5005110633014288*cos(X1/(-X1 + 2*X3)) + 0.5005110633014288*cos(log(X1)/(-X1 + X3)), loss: 0.24445522997598673, form: log(-C+log(log(2*X3+exp(X1))))+log(-C+log(log(X3+exp(X1))))+F
+Episode: 4/10, time: 241.78s, expression: exp(exp(0.18269825765650857*X1*X2**2*(X2 - cos(X1))*(-X3**2 + X3))*log(X1)/X3), loss: 0.017977066568378545, form: exp(exp(-C*X1*X2**2*X3)*exp(C*X1*X2**2*X3**2)*exp(C*X1*X2*X3*cos(X1))*exp(-C*X1*X2*X3**2*cos(X1))*log(X1)/X3)+exp(exp(-2*C*X1*X2**4*X3)*exp(2*C*X1*X2**4*X3**2)*log(X1)/X3)+F
+Episode: 5/10, time: 316.93s, expression: exp(exp(0.18269825765650857*X1*X2**2*(X2 - cos(X1))*(-X3**2 + X3))*log(X1)/X3), loss: 0.017977066568378545, form: log(C+log(log(X1+X3+cos(X3))))+log(C+log(log(X1+X3+cos(X1+X3))))+F
+Episode: 6/10, time: 404.4s, expression: exp(exp(0.18269825765650857*X1*X2**2*(X2 - cos(X1))*(-X3**2 + X3))*log(X1)/X3), loss: 0.017977066568378545, form: sin(log(2*X1+X3)/C)+sin(C*log(2*X1+X3))+F
+Episode: 7/10, time: 695.45s, expression: exp(exp(0.6243653338678647*X1*X2*(X2 - cos(X1))*(-X3**2 + sin(X3)) - sin(2*X1 - X2))*log(X1)/X3), loss: 0.005974867686633603, form: log(log(C+X3+log(X1)+sin(X1))-sin(X3)/X3)+log(log(2*C+X1+X3+log(X1))-sin(X3)/X3)+F
+Episode: 8/10, time: 801.1s, expression: exp(exp(0.6243653338678647*X1*X2*(X2 - cos(X1))*(-X3**2 + sin(X3)) - sin(2*X1 - X2))*log(X1)/X3), loss: 0.005974867686633603, form: sin(exp(C/X3))+sin(exp(C/(X1+log(X2*X3))))+F
+Episode: 9/10, time: 990.91s, expression: exp(exp(0.6243653338678647*X1*X2*(X2 - cos(X1))*(-X3**2 + sin(X3)) - sin(2*X1 - X2))*log(X1)/X3), loss: 0.005974867686633603, form: cos(C/(-X2+exp(X3))+X1/(-X2+exp(X3)))+cos(C/(-X2+exp(X3)))+F
+Episode: 10/10, time: 1230.69s, expression: exp(exp(0.6243653338678647*X1*X2*(X2 - cos(X1))*(-X3**2 + sin(X3)) - sin(2*X1 - X2))*log(X1)/X3), loss: 0.005974867686633603, form: log(-C+log(log(X1+X3+cos(X1+X3))))+log(-C+log(log(2*X1+X3+cos(X1+X3))))+F
+############ Pareto Boundary Program ############
+Expression:  exp(exp(0.07838739950304388*x1*x2**3*(x2 - x3**2))*log(x1)/x3)
+Complexity:  27
+RMSE:  0.04376556582675315
+######### End Of This Expression #########
+Expression:  exp(exp(0.04829127010999738*x1*x2**3*(-x1 + x2)*(-x3**2 + x3))*log(x1)/x3)
+Complexity:  32
+RMSE:  0.02482422532204623
+######### End Of This Expression #########
+Expression:  exp(exp(0.43343816705053256*x1*x2*(x2 - cos(x1))*(-x3**2 + x3) + x1)*log(x1)/x3)
+Complexity:  34
+RMSE:  0.01726955654097613
+######### End Of This Expression #########
+Expression:  exp(exp(x1 + 0.447601272743031*x2*(x2 - cos(x1))*(-x3**2 + x3)*sin(x1))*log(x1)/x3)
+Complexity:  37
+RMSE:  0.016651274957866738
+######### End Of This Expression #########
+Expression:  exp(exp(0.8802189247131189*x1*x2*(x2 - cos(x1))*(-x3**2 + x3) - sin(x1 - x2))*log(x1)/x3)
+Complexity:  43
+RMSE:  0.008535853671437714
+######### End Of This Expression #########
+Expression:  exp(exp(0.6243653338678647*x1*x2*(x2 - cos(x1))*(-x3**2 + sin(x3)) - sin(2*x1 - x2))*log(x1)/x3)
+Complexity:  48
+RMSE:  0.005974867686633603
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  low_var
+Number of programs in the Pareto front:  6
+Less Complexity pareto optimal programs:
+exp(exp(0.07838739950304388*x1*x2**3*(x2 - x3**2))*log(x1)/x3)
+Complexity	R2
+27
+Validation RMSE:  0.04376556582675315
+############## END ##############
+############ TASK ############
+Task:  avrami
+Task type:  noise_0.02
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 64.16s, expression: X2*X3*exp(-exp(0.10481403939910708*log(X2)/X3)*log(X2)/X3)*sin(X1), loss: 0.004391965145879298, form: X2*X3*exp(-C*log(X2)/X3)*sin(X1)+F
+Episode: 3/10, time: 129.91s, expression: X2*X3*exp(-exp(0.10481403939910708*log(X2)/X3)*log(X2)/X3)*sin(X1), loss: 0.004391965145879298, form: X2*X3**2*sin(X1)/(X2*log(X2)+X3)+X1*X2*X3**2/(C*X2*log(X2)+X3)+F
+Episode: 4/10, time: 196.83s, expression: X2*X3*exp(-exp(0.10481403939910708*log(X2)/X3)*log(X2)/X3)*sin(X1), loss: 0.004391965145879298, form: C*X1*X3**2/log(X2+X3)+F
+Episode: 5/10, time: 275.07s, expression: exp(-exp(-0.20500173656598278*exp(X3)*exp(X3**2))*log(X2)/X3)*sin(X1*X3), loss: 0.004328593877392349, form: exp(-exp(-exp(-C)*exp(X3)*exp(X3**2))*log(X2)/X3)*sin(X1*X3)+exp(-exp(-exp(C)*exp(X3)*exp(X3**2))*log(X2)/X3)*sin(X1*X3)+F
+Episode: 6/10, time: 352.52s, expression: exp(-exp(-0.20500173656598278*exp(X3)*exp(X3**2))*log(X2)/X3)*sin(X1*X3), loss: 0.004328593877392349, form: X1*X3**2*exp(X3**2)/(exp(C)*log(X2)+X3*exp(C)/X2**2)+X1*X3*exp(X3)*exp(X3**2)/(exp(C)*log(X2)+X3*exp(C)/X2**2)+X1*X3*exp(2*X3)/(exp(C)*log(X2)+X3*exp(C)/X2**3)+X1*X3**2*exp(X3)/(exp(C)*log(X2)+X3*exp(C)/X2**3)+F
+Episode: 7/10, time: 643.26s, expression: exp(-exp(-0.25674008515312037*exp(X3)*exp(X3**4))*log(X2)/X3)*sin(X1*X3), loss: 0.0035786945361078555, form: C*X1**2*X3*log(X2/cos(X1)-cos(X3)/cos(X1))*cos(X1**2)+X1*X3**2+C*X1*X3*exp(X1)*log(X2/cos(X1)-cos(X3)/cos(X1))*cos(X1**2)+C*X1**2*X3*exp(-X1)*log(X2/cos(X1)-cos(X3)/cos(X1))*cos(X1)+F
+Episode: 8/10, time: 816.79s, expression: exp(-exp(-0.25674008515312037*exp(X3)*exp(X3**4))*log(X2)/X3)*sin(X1*X3), loss: 0.0035786945361078555, form: X1*X3*sin(C*X3*exp(X3)/(X1*X3+X2)+X3**2*exp(X3)/(X1*X3+X2))-X1*X3*sin(2*C*X3*exp(X3)/(X1*X3**2+X2)-X3**2*exp(X3)/(X1*X3**2+X2))+F
+Episode: 9/10, time: 1070.43s, expression: exp(-exp(-0.25674008515312037*exp(X3)*exp(X3**4))*log(X2)/X3)*sin(X1*X3), loss: 0.0035786945361078555, form: X3**2*sin(X1)*sin(C-log(X3/X2))/log(X2+sin(X3))+X3**2*sin(X1)*sin(C+log(X3/X2))/log(X2+X3)+F
+Episode: 10/10, time: 1309.8s, expression: exp(-exp(-0.25674008515312037*exp(X3)*exp(X3**4))*log(X2)/X3)*sin(X1*X3), loss: 0.0035786945361078555, form: X1*X3*exp(X2)*exp(-2*C*X2)*exp(X2*sin(X3))+X1*X3*exp(-C*X2)*exp(X2*sin(X3))+F
+############ Pareto Boundary Program ############
+Expression:  x1*x2*x3*exp(-1.259133750609379*log(x2)/x3)
+Complexity:  15
+RMSE:  0.006505663758899617
+######### End Of This Expression #########
+Expression:  x2*x3*exp(-1.184764277148391*log(x2)/x3)*sin(x1)
+Complexity:  18
+RMSE:  0.0047160594812641465
+######### End Of This Expression #########
+Expression:  x2*x3*exp(-exp(0.10481403939910708*log(x2)/x3)*log(x2)/x3)*sin(x1)
+Complexity:  29
+RMSE:  0.004391965145879298
+######### End Of This Expression #########
+Expression:  exp(-exp(-0.24557567443386383*exp(2*x3**2))*log(x2)/x3)*sin(x1*x3)
+Complexity:  30
+RMSE:  0.004083000282515679
+######### End Of This Expression #########
+Expression:  exp(-exp(-0.25674008515312037*exp(x3)*exp(x3**4))*log(x2)/x3)*sin(x1*x3)
+Complexity:  31
+RMSE:  0.0035786945361078555
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  noise_0.02
+Number of programs in the Pareto front:  5
+Less Complexity pareto optimal programs:
+x1*x2*x3*exp(-1.259133750609379*log(x2)/x3)
+Complexity	R2
+15
+Validation RMSE:  0.006505663758899617
+############## END ##############
+############ TASK ############
+Task:  avrami
+Task type:  noise_0.05
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 75.26s, expression: X1/(-0.7444757696425854*X2 + (X2 + X3)/X3), loss: 0.023987722825225974, form: F
+Episode: 3/10, time: 164.96s, expression: X3/(X3**2/(X2*(-X1 + X2 + sin(X1))) + 1.0870064448856458*X2*cos(X3)/X1), loss: 0.018120251694609554, form: F
+Episode: 4/10, time: 226.85s, expression: X3/(X3**2/(X2*(-X1 + X2 + sin(X1))) + 1.0870064448856458*X2*cos(X3)/X1), loss: 0.018120251694609554, form: F
+Episode: 5/10, time: 311.9s, expression: X1*X3/(0.597881226777559*X3 + log(X2 + X3)/X3), loss: 0.014596789340929062, form: F
+Episode: 6/10, time: 393.29s, expression: 0.60749328702037269*X1*X3*exp(X3)/(X2 + X3**2*(X1 + X3*cos(X2))), loss: 0.012748626062610971, form: F
+Episode: 7/10, time: 629.08s, expression: X1*X3*(-X3 + 1.0036867791930172*exp(X3))/(X2 + X3**2*(X1 + X3*cos(X2*X3**2))), loss: 0.011016510336587198, form: F
+Episode: 8/10, time: 783.29s, expression: exp(-0.9168029043458424*exp(-X3)*log(X2)/X3)*sin(X1)*sin(X3), loss: 0.005534845295467828, form: F
+Episode: 9/10, time: 1000.2s, expression: exp(exp(-X3)*log(X2)/(X3*(-X3**2 - 0.6921873717976267)))*sin(X1)*sin(X3), loss: 0.004929908112332098, form: F
+Episode: 10/10, time: 1232.86s, expression: exp(exp(-X3)*log(X2)/(X3*(-X3**2 - 0.6921873717976267)))*sin(X1)*sin(X3), loss: 0.004929908112332098, form: X3*exp(-X2/(C*X1+X1*X2*X3**3))+F
+############ Pareto Boundary Program ############
+Expression:  x1*x3*sin(exp(-0.3573289834853824*log(x2)/x3**2))
+Complexity:  17
+RMSE:  0.01013845827333889
+######### End Of This Expression #########
+Expression:  exp(-0.3053522534375414*log(x2)/x3**2)*sin(x1)*sin(x3)
+Complexity:  20
+RMSE:  0.005751291500354209
+######### End Of This Expression #########
+Expression:  exp(log(x2)/(x3**2*(x1 - 4.13900850990714)))*sin(x1)*sin(x3)
+Complexity:  25
+RMSE:  0.005450510422843682
+######### End Of This Expression #########
+Expression:  exp(exp(-x3)*log(x2)/(x3*(-x3 - 0.48339295746218625)))*sin(x1)*sin(x3)
+Complexity:  32
+RMSE:  0.004995010661374503
+######### End Of This Expression #########
+Expression:  exp(exp(-x3)*log(x2)/(x3*(-x3**2 - 0.6921873717976267)))*sin(x1)*sin(x3)
+Complexity:  35
+RMSE:  0.004929908112332098
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  noise_0.05
+Number of programs in the Pareto front:  5
+Less Complexity pareto optimal programs:
+x1*x3*sin(exp(-0.3573289834853824*log(x2)/x3**2))
+Complexity	R2
+17
+Validation RMSE:  0.01013845827333889
+############## END ##############
+############ TASK ############
+Task:  avrami
+Task type:  noise_0.1
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 79.7s, expression: sin(0.560948324494859*X1*X3**2*exp(X3)/(X3 + log(X2))), loss: 0.015765521753182198, form: F
+Episode: 3/10, time: 151.55s, expression: sin(0.560948324494859*X1*X3**2*exp(X3)/(X3 + log(X2))), loss: 0.015765521753182198, form: F
+Episode: 4/10, time: 220.39s, expression: sin(0.560948324494859*X1*X3**2*exp(X3)/(X3 + log(X2))), loss: 0.015765521753182198, form: F
+Episode: 5/10, time: 289.46s, expression: sin(0.560948324494859*X1*X3**2*exp(X3)/(X3 + log(X2))), loss: 0.015765521753182198, form: F
+Episode: 6/10, time: 366.3s, expression: sin(0.560948324494859*X1*X3**2*exp(X3)/(X3 + log(X2))), loss: 0.015765521753182198, form: X3**3*sin(X1)/(X3+log(X2))+C**2*X3*sin(X1)/(X3+log(X2))+2*C*X3**2*sin(X1)/(X3+log(X2))+F
+Episode: 7/10, time: 577.95s, expression: sin(0.7381169451523739*X1*X3**2*exp(X3**2)/(X3 + log(X2*log(X2) + 1))), loss: 0.012947630441931654, form: X3*sin(X1*X3/log(C*X2+X2*X3))+X1*X3**2/log(-C*X2+X2*X3)+F
+Episode: 8/10, time: 741.74s, expression: sin(0.7381169451523739*X1*X3**2*exp(X3**2)/(X3 + log(X2*log(X2) + 1))), loss: 0.012947630441931654, form: sin(X1*X3**2/(C*log(X2+X3)-X3*log(X2+X3)))+F
+Episode: 9/10, time: 944.93s, expression: sin(0.7381169451523739*X1*X3**2*exp(X3**2)/(X3 + log(X2*log(X2) + 1))), loss: 0.012947630441931654, form: X3*sin(X1)*sin(X3)*sin(C*X3/(X2-X3))+X3*sin(X1)*sin(X3)*sin(C*X3/X2)+F
+Episode: 10/10, time: 1197.5s, expression: sin(0.7381169451523739*X1*X3**2*exp(X3**2)/(X3 + log(X2*log(X2) + 1))), loss: 0.012947630441931654, form: C*X3**2*sin(X1)/log(X2+sin(X3))+X3**2*sin(X1)/(C*log(X2+X3))+F
+############ Pareto Boundary Program ############
+Expression:  sin(x1*x3*(exp(x3) - 0.7846545686615477)/x2)
+Complexity:  15
+RMSE:  0.025641001868894613
+######### End Of This Expression #########
+Expression:  0.5419179651977091*x1*x3**2*exp(x3)/(x3 + log(x2))
+Complexity:  18
+RMSE:  0.016569064256987974
+######### End Of This Expression #########
+Expression:  sin(0.560948324494859*x1*x3**2*exp(x3)/(x3 + log(x2)))
+Complexity:  21
+RMSE:  0.015765521753182198
+######### End Of This Expression #########
+Expression:  sin(0.8014110938684872*x1*x3**2*exp(x3**3)/(x3 + log(x2 + log(x2))))
+Complexity:  28
+RMSE:  0.01361337319987941
+######### End Of This Expression #########
+Expression:  sin(0.7381169451523739*x1*x3**2*exp(x3**2)/(x3 + log(x2*log(x2) + 1)))
+Complexity:  30
+RMSE:  0.012947630441931654
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  noise_0.1
+Number of programs in the Pareto front:  5
+Less Complexity pareto optimal programs:
+sin(x1*x3*(exp(x3) - 0.7846545686615477)/x2)
+Complexity	R2
+15
+Validation RMSE:  0.025641001868894613
+############## END ##############
+############ TASK ############
+Task:  avrami
+Task type:  noise_0.2
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 73.9s, expression: (X1 + 0.006207328511130357/log(X2 - X3))*sin(X3/X2), loss: 0.03842417089619762, form: X1*sin(X3/X2)+F
+Episode: 3/10, time: 148.2s, expression: X3*(-0.12935273366402603*X1*X3/sin(X2**2) + X1)/X2, loss: 0.038035631711157564, form: X1*sin(X3/X2)+F
+Episode: 4/10, time: 226.04s, expression: sin(X1*exp((1.18083087058908*X2 - 0.5904154352945398*log(X2))*log(X3))), loss: 0.024849685366166174, form: F
+Episode: 5/10, time: 330.05s, expression: sin(X1*exp((1.18083087058908*X2 - 0.5904154352945398*log(X2))*log(X3))), loss: 0.024849685366166174, form: X1*X3/log(-C*X3/(-X2+exp(X1))+exp(X2))+F
+Episode: 6/10, time: 400.32s, expression: sin(X1*exp((1.18083087058908*X2 - 0.5904154352945398*log(X2))*log(X3))), loss: 0.024849685366166174, form: sin(X1*exp(C*X2/X3))+sin(X1*exp(-C*X2/X3))+F
+Episode: 7/10, time: 646.78s, expression: sin(X1*exp((1.18083087058908*X2 - 0.5904154352945398*log(X2))*log(X3))), loss: 0.024849685366166174, form: sin(C*X1*X3/X2)+F
+Episode: 8/10, time: 821.77s, expression: sin(X1*exp((1.18083087058908*X2 - 0.5904154352945398*log(X2))*log(X3))), loss: 0.024849685366166174, form: -sin(C*X3**2*exp(-X2)/X2-X1*X3/X2)-sin(C*X3**2/X2**2-X1*X3/X2)+F
+Episode: 9/10, time: 1111.72s, expression: sin(X1*exp((1.18083087058908*X2 - 0.5904154352945398*log(X2))*log(X3))), loss: 0.024849685366166174, form: X1*X3/log(-X1*sin(X3)+X3-exp(X2)/C)+X1*X3/log(-X1*X2-X1*exp(X2)/sin(X1/C)+X3)+F
+Episode: 10/10, time: 1374.64s, expression: sin(X1*exp((1.18083087058908*X2 - 0.5904154352945398*log(X2))*log(X3))), loss: 0.024849685366166174, form: X1*sin(X3)/(X2+X3*sin(exp(X2**2/C)))+X1*sin(X3)/(X2+X3*sin(X2**3/C))+F
+############ Pareto Boundary Program ############
+Expression:  x1*x3/log(exp(x2) + 0.2106469621976589)
+Complexity:  13
+RMSE:  0.055546314984514705
+######### End Of This Expression #########
+Expression:  x1*x3/log(exp(x2) + sin(x2 + x3) - 0.7862484426500759)
+Complexity:  19
+RMSE:  0.05370480083071276
+######### End Of This Expression #########
+Expression:  sin(x1*exp((1.18083087058908*x2 - 0.5904154352945398*log(x2))*log(x3)))
+Complexity:  20
+RMSE:  0.024849685366166174
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  noise_0.2
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+x1*x3/log(exp(x2) + 0.2106469621976589)
+Complexity	R2
+13
+Validation RMSE:  0.055546314984514705
+############## END ##############
+############ TASK ############
+Task:  avrami
+Task type:  noise_0.5
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 67.07s, expression: X1*X3**2*cos(log(1.904177876366125*X2*exp(-X2 + X3))), loss: 0.16042215481157027, form: F
+Episode: 3/10, time: 128.69s, expression: X1*X3**2*cos(log(1.904177876366125*X2*exp(-X2 + X3))), loss: 0.16042215481157027, form: F
+Episode: 4/10, time: 210.93s, expression: X1*X3**2*cos(log(1.904177876366125*X2*exp(-X2 + X3))), loss: 0.16042215481157027, form: F
+Episode: 5/10, time: 281.82s, expression: X1*X3**2*cos(log(1.904177876366125*X2*exp(-X2 + X3))), loss: 0.16042215481157027, form: F
+Episode: 6/10, time: 387.21s, expression: X1*X3**2*cos(log(1.904177876366125*X2*exp(-X2 + X3))), loss: 0.16042215481157027, form: F
+Episode: 7/10, time: 641.04s, expression: X1*X3/(exp(0.074136038356189423*X2**2/X3) + cos(X2)), loss: 0.1572116341474175, form: F
+Episode: 8/10, time: 858.12s, expression: X1*X3/(exp(0.074136038356189423*X2**2/X3) + cos(X2)), loss: 0.1572116341474175, form: F
+Episode: 9/10, time: 1131.26s, expression: X1*X3**2*exp(X3)*cos(log(X2))*cos(log(X2*exp(-X3*(X1 + X3)))), loss: 0.14059999293585412, form: F
+Episode: 10/10, time: 1485.54s, expression: X3*sin(X1*(-X3*(log(-X1 + X2) - 0.9112825251042623)*log(X2**2) + X3)), loss: 0.13491971806416783, form: X1*X3**2/X2+F
+############ Pareto Boundary Program ############
+Expression:  x1*x3*cos(log(x2 - x3 + 0.5327823777569853))
+Complexity:  14
+RMSE:  0.2203132034433011
+######### End Of This Expression #########
+Expression:  x1*x3*cos(log(1.882476250601897*x2*exp(-x3)))
+Complexity:  16
+RMSE:  0.21501903301147596
+######### End Of This Expression #########
+Expression:  x1*x3**2*cos(log(3.8454848002922684*x2*exp(-x2)))
+Complexity:  19
+RMSE:  0.17533193398737956
+######### End Of This Expression #########
+Expression:  x1*x3**2*cos(log(1.904177876366125*x2*exp(-x2 + x3)))
+Complexity:  21
+RMSE:  0.16042215481157027
+######### End Of This Expression #########
+Expression:  x1*x3/(exp(0.074136038356189423*x2**2/x3) + cos(x2))
+Complexity:  23
+RMSE:  0.1572116341474175
+######### End Of This Expression #########
+Expression:  x3*sin(x1*(-x3*(log(-x1 + x2) - 0.9112825251042623)*log(x2**2) + x3))
+Complexity:  27
+RMSE:  0.13491971806416783
+######### End Of This Expression #########
+Expression:  x1*x3*sin(x3**2*(x1 - x2 + exp(x3**3) + 1.4826746530946848))*cos(log(x2/(x2 - x3))) + x1*x3**2/x2
+Complexity:  49
+RMSE:  0.09483310701861755
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  noise_0.5
+Number of programs in the Pareto front:  7
+Less Complexity pareto optimal programs:
+x1*x3*cos(log(x2 - x3 + 0.5327823777569853))
+Complexity	R2
+14
+Validation RMSE:  0.2203132034433011
+############## END ##############
+############ TASK ############
+Task:  avrami
+Task type:  num_10
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 79.18s, expression: (X1*X2 + X1)*exp(X2*(X3 - 1.436477624839616))*sin(X3), loss: 0.001108613455564533, form: F
+Episode: 3/10, time: 152.33s, expression: (X1*X2 + X1)*exp(X2*(X3 - 1.436477624839616))*sin(X3), loss: 0.001108613455564533, form: X3*sin(2*X1)*sin(X3)+X3**2*sin(X3)/X2+F
+Episode: 4/10, time: 232.35s, expression: (X1*X2 + X1)*exp(X2*(X3 - 1.436477624839616))*sin(X3), loss: 0.001108613455564533, form: X1*X3**2+C*X1**2*X2*X3*cos(X2)+F
+Episode: 5/10, time: 312.06s, expression: (X1*X2 + X1)*exp(X2*(X3 - 1.436477624839616))*sin(X3), loss: 0.001108613455564533, form: X3**2*exp(-2*C*X3**2)*sin(X1/X2)+X3**2*exp(-C*X3**2)*sin(X1/X2)+F
+Episode: 6/10, time: 404.24s, expression: (X1*X2 + X1)*exp(X2*(X3 - 1.436477624839616))*sin(X3), loss: 0.001108613455564533, form: X1*exp(-C*X1*X3)*exp(-C*X2/X3)*exp(C*X2*X3)+exp(-C*X2/X3)*exp(C*X2*X3)*exp(-C*X3*sin(X1/X3))*sin(X1)+F
+Episode: 7/10, time: 677.63s, expression: (X1*X2 + X1)*exp(X2*(X3 - 1.436477624839616))*sin(X3), loss: 0.001108613455564533, form: sin(C*X1*X3*log(X2-X3)+X1*X3**2)+X1*X3**2+X1*X3*log(X2-X3)*sin(2*C)+F
+Episode: 8/10, time: 858.95s, expression: (X1*X2 + X1)*exp(X2*(X3 - 1.436477624839616))*sin(X3), loss: 0.001108613455564533, form: X3**2*exp(X3**2*exp(C*X2))*sin(X1)/X2+X3**2*exp(X3**2*exp(2*C*X2))*sin(X1)/X2+F
+Episode: 9/10, time: 1153.12s, expression: (X1*X2 + X1)*exp(X2*(X3 - 1.436477624839616))*sin(X3), loss: 0.001108613455564533, form: X1*X3*sin(2*C*X3/X2+X3**2*exp(X3)/X2)+X1*X3*sin(C*X3/(X1*X2)+X3**2*exp(X3)/X2)+F
+Episode: 10/10, time: 1479.58s, expression: (X1*X2 + X1)*exp(X2*(X3 - 1.436477624839616))*sin(X3), loss: 0.001108613455564533, form: X1*X3**2+C*X1*X2*X3**2*log(X2)*log(X3/X2)*cos(X3)+C*X1*X2*X3**2*log(X2)*log(X3/(X1+X2))*cos(X3)+F
+############ Pareto Boundary Program ############
+Expression:  x1*x3*exp(x2*(x3 - 1.0760798524558637))
+Complexity:  10
+RMSE:  0.009115186973125966
+######### End Of This Expression #########
+Expression:  x3*(x1*x2 + x1)*exp(x2*(x3 - 1.4784393305686392))
+Complexity:  14
+RMSE:  0.0012158076528144398
+######### End Of This Expression #########
+Expression:  (x1*x2 + x1)*exp(x2*(x3 - 1.436477624839616))*sin(x3)
+Complexity:  17
+RMSE:  0.001108613455564533
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  num_10
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+x1*x3*exp(x2*(x3 - 1.0760798524558637))
+Complexity	R2
+10
+Validation RMSE:  0.009115186973125966
+############## END ##############
+############ TASK ############
+Task:  avrami
+Task type:  num_25
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 123.93s, expression: X1*X3**2*cos(0.7991905384432024*log(X2)), loss: 0.008104259693686925, form: F
+Episode: 3/10, time: 291.53s, expression: sin(X3*(X1*X3 + 2*X1)/(X2/X3 + 1.2002581813134923 + X3/X2)), loss: 0.003806538709099573, form: F
+Episode: 4/10, time: 443.81s, expression: sin(X3*(X1*X3 + 2*X1)/(X2/X3 + 1.2002581813134923 + X3/X2)), loss: 0.003806538709099573, form: F
+Episode: 5/10, time: 609.2s, expression: sin(X3*(X1*X3 + 2*X1)/(X2/X3 + 1.2002581813134923 + X3/X2)), loss: 0.003806538709099573, form: C*X1*X3**2*log(X2)/X2+F
+Episode: 6/10, time: 858.32s, expression: sin(X3*(X1*X3 + 2*X1)/(X2/X3 + 1.2002581813134923 + X3/X2)), loss: 0.003806538709099573, form: sin(C*X1**2*X3**2*exp(exp(X1))-C*X1*X2*X3**2*exp(exp(X1))+C*X1*X3**2*exp(exp(X1))/X2+X1*X3**2)+sin(C*X1**2*X3**2*exp(X1**2)-C*X1*X2*X3**2*exp(X1**2)+C*X1*X3**2*exp(X1**2)/X2+X1*X3**2)+F
+Episode: 7/10, time: 1439.95s, expression: sin(X3*(X1*X3 + 2*X1)/(X2/X3 + 1.2002581813134923 + X3/X2)), loss: 0.003806538709099573, form: X1*X3*exp(X3)/(C+X2)+F
+Episode: 8/10, time: 1620.93s, expression: sin(X3*(X1*X3 + 2*X1)/(X2/X3 + 1.2002581813134923 + X3/X2)), loss: 0.003806538709099573, form: X1*X3**2*cos(C*X2)+X1*X3**2*cos(C*log(X2))+F
+Episode: 9/10, time: 1999.99s, expression: sin(X3*(X1*X3 + 2*X1)/(X2/X3 + 1.2002581813134923 + X3/X2)), loss: 0.003806538709099573, form: X1*X3**2*log(-log(X2)+log(C-X2-log(X2)))+X1*X3**2*log(-log(X2)+log(C-X2-X3))+F
+Episode: 10/10, time: 2330.54s, expression: sin(X3*(X1*X3 + 2*X1)/(X2/X3 + 1.2002581813134923 + X3/X2)), loss: 0.003806538709099573, form: X1*X3**2*cos(2*C*log(X2))+X1*X3**2*cos(C*log(X2))+F
+############ Pareto Boundary Program ############
+Expression:  x1*x3**2*cos(0.7991905384432024*log(x2))
+Complexity:  14
+RMSE:  0.008104259693686925
+######### End Of This Expression #########
+Expression:  x3*(x1 + x3*(x1*x3 + x1))/(x2 + 1.7473974698254122)
+Complexity:  17
+RMSE:  0.006410161912283149
+######### End Of This Expression #########
+Expression:  x3*(x1*x3 + 3*x1)/(x2/x3 + 3.2332472928662264)
+Complexity:  20
+RMSE:  0.005476127123499363
+######### End Of This Expression #########
+Expression:  x3*(2*x1*x3 + 2*x1)/(x2/x3 + 2.835966516970485)
+Complexity:  21
+RMSE:  0.004724755811689414
+######### End Of This Expression #########
+Expression:  sin(x3*(x1*x3 + 2*x1)/(x2/x3 + 1.2002581813134923 + x3/x2))
+Complexity:  29
+RMSE:  0.003806538709099573
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  num_25
+Number of programs in the Pareto front:  5
+Less Complexity pareto optimal programs:
+x1*x3**2*cos(0.7991905384432024*log(x2))
+Complexity	R2
+14
+Validation RMSE:  0.008104259693686925
+############## END ##############
+############ TASK ############
+Task:  avrami
+Task type:  num_100
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 93.92s, expression: X1*X3*sin(2.1298897421631902*X3/X2), loss: 0.09339003724660963, form: F
+Episode: 3/10, time: 252.46s, expression: X1*X3/(X1 + 0.3824113268779745*X2/X3), loss: 0.09096616990069112, form: F
+Episode: 4/10, time: 389.03s, expression: X1*X3*exp(X3)/(X2 + log(X2)/X3 + exp(X3)*sin(X3)/(X2*(-0.28248339641863755*X1 + X2))), loss: 0.022986261898944628, form: F
+Episode: 5/10, time: 478.82s, expression: X1*X3*exp(X3)/(X2 + log(X2)/X3 + exp(X3)*sin(X3)/(X2*(-0.28248339641863755*X1 + X2))), loss: 0.022986261898944628, form: F
+Episode: 6/10, time: 618.17s, expression: X1*X3*exp(X3)/(X2 + log(X2)/X3 + exp(X3)*sin(X3)/(X2*(-0.28248339641863755*X1 + X2))), loss: 0.022986261898944628, form: F
+Episode: 7/10, time: 1035.76s, expression: X1*X3*exp(X3)/(X2 + log(X2)/X3 + exp(X3)*sin(X3)/(X2**2*(X1/(X1 + 0.7898682760627395) + X2 - sin(X1)))), loss: 0.020855239362211786, form: F
+Episode: 8/10, time: 1243.22s, expression: X1*X3*exp(X3)/(X2 + log(X2)/X3 + exp(X3)*sin(X3)/(X2**2*(X1/(X1 + 0.7898682760627395) + X2 - sin(X1)))), loss: 0.020855239362211786, form: F
+Episode: 9/10, time: 1543.47s, expression: X1*X3*exp(X3)/(X2 + log(X2)/X3 + exp(X3)*sin(X3)/(X2**2*(X1/(X1 + 0.7898682760627395) + X2 - sin(X1)))), loss: 0.020855239362211786, form: F
+Episode: 10/10, time: 1840.56s, expression: X1*X3*exp(X3)/(X2 + log(X2)/X3 + exp(X3)*sin(X3)/(X2**2*(X1/(X1 + 0.7898682760627395) + X2 - sin(X1)))), loss: 0.020855239362211786, form: F
+############ Pareto Boundary Program ############
+Expression:  x1*x3*exp(x3)/(x2 + log(x2)/x3 + 3.562254342035166*exp(-x2)*exp(x3)*sin(x3)/x2)
+Complexity:  37
+RMSE:  0.026326366911160425
+######### End Of This Expression #########
+Expression:  x1*x3*exp(x3)/(x2 + log(x2)/x3 + exp(x3)*sin(x3)/(x2**2*(-0.2824833964186556*x1 + x2)))
+Complexity:  39
+RMSE:  0.022003629763504708
+######### End Of This Expression #########
+Expression:  x1*x3*exp(x3)/(x2 + log(x2)/x3 + exp(x3)*sin(x3)/(x2**2*(-0.3680778980254688*x1*sin(x1) + x2)))
+Complexity:  43
+RMSE:  0.02124204990153193
+######### End Of This Expression #########
+Expression:  x1*x3*exp(x3)/(x2 + log(x2)/x3 + exp(x3)*sin(x3)/(x2**2*(x1/(x1 + 0.7898682760627395) + x2 - sin(x1))))
+Complexity:  50
+RMSE:  0.020855239362211786
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  num_100
+Number of programs in the Pareto front:  4
+Less Complexity pareto optimal programs:
+x1*x3*exp(x3)/(x2 + log(x2)/x3 + 3.562254342035166*exp(-x2)*exp(x3)*sin(x3)/x2)
+Complexity	R2
+37
+Validation RMSE:  0.026326366911160425
+############## END ##############
+############ TASK ############
+Task:  avrami
+Task type:  num_200
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 84.62s, expression: sin(X1*X3/(X2*(-X2 + X3 + exp(0.78787043423727755*X2*exp(-X3))))), loss: 0.033259168330984835, form: F
+Episode: 3/10, time: 151.06s, expression: sin(X1*X3/(X2*(-X2 + X3 + exp(0.78787043423727755*X2*exp(-X3))))), loss: 0.033259168330984835, form: F
+Episode: 4/10, time: 217.14s, expression: sin(X1*X3/(X2*(-X2 + X3 + exp(0.78787043423727755*X2*exp(-X3))))), loss: 0.033259168330984835, form: F
+Episode: 5/10, time: 314.49s, expression: sin(X1*X3/(X2*(-X2 + X3 + exp(0.78787043423727755*X2*exp(-X3))))), loss: 0.033259168330984835, form: X3*sin(X1*X3)+F
+Episode: 6/10, time: 387.8s, expression: sin(X1*X3/(X2*(-X2 + X3 + exp(0.78787043423727755*X2*exp(-X3))))), loss: 0.033259168330984835, form: C*X3**2/(X3+log(X2+X3)/X1)+F
+Episode: 7/10, time: 605.91s, expression: sin(X1*X3/(X2*(-X2 + X3 + exp(0.78787043423727755*X2*exp(-X3))))), loss: 0.033259168330984835, form: X3*sin(X1)*sin(C*X3/(2*X2)+X3**2/(2*X2))+X3*sin(X1)*sin(C*X3/(2*X2)+X3**2/X2)+F
+Episode: 8/10, time: 752.38s, expression: sin(X1*X3/(X2*(-X2 + X3 + exp(0.78787043423727755*X2*exp(-X3))))), loss: 0.033259168330984835, form: X1*X2*exp(X2/(C*X3))+X1*X2*exp(-X2/(C*X3))+F
+Episode: 9/10, time: 991.07s, expression: sin(X1*X3/(X2*(-X2 + X3 + exp(0.78787043423727755*X2*exp(-X3))))), loss: 0.033259168330984835, form: C*X3*sin(X1)/X2+C*X3**2*sin(X1)+C*X1*X3/X2+F
+Episode: 10/10, time: 1185.39s, expression: sin(X1*X3/(X2*(-X2 + X3 + exp(0.78787043423727755*X2*exp(-X3))))), loss: 0.033259168330984835, form: C*sin(X3)*sin(X1*X3)+C*X3**2*sin(X1)+F
+############ Pareto Boundary Program ############
+Expression:  x1*x3/(0.3877212123656949*x2/x3 + x3)
+Complexity:  15
+RMSE:  0.13429043139784114
+######### End Of This Expression #########
+Expression:  x1*x3/(-x2 + 1.080715958686822*x2/x3 + x3)
+Complexity:  18
+RMSE:  0.10777861771427669
+######### End Of This Expression #########
+Expression:  x1*x3/(0.6810734061746967*x2*exp(-x3)/x3 + x3)
+Complexity:  20
+RMSE:  0.10374391248586087
+######### End Of This Expression #########
+Expression:  sin(x1*x3/(-x2 + 1.05778904892221*x2/x3 + x3))
+Complexity:  21
+RMSE:  0.09386022739228143
+######### End Of This Expression #########
+Expression:  x3*exp(x2 - x3 - (x2 - 0.7677272923378986)/x3)*sin(x1)
+Complexity:  22
+RMSE:  0.05347859054087904
+######### End Of This Expression #########
+Expression:  sin(x1*x3/(x2*(-x2 + x3 + exp(0.78787043423727755*x2*exp(-x3)))))
+Complexity:  28
+RMSE:  0.033259168330984835
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  num_200
+Number of programs in the Pareto front:  6
+Less Complexity pareto optimal programs:
+x1*x3/(0.3877212123656949*x2/x3 + x3)
+Complexity	R2
+15
+Validation RMSE:  0.13429043139784114
+############## END ##############
+############ TASK ############
+Task:  avrami
+Task type:  num_500
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 139.29s, expression: X3*sin(X1)*sin(X3*(X3 + 1.4534254543676821)/X2), loss: 0.21296004128906607, form: F
+Episode: 3/10, time: 254.32s, expression: exp((0.01231705077391055*X2 - 0.01231705077391055*exp(X2 - X3**3 + sin(X2)))*(X1*X3**2 + X2)/X3)*sin(X1*X3), loss: 0.051091266323931045, form: F
+Episode: 4/10, time: 336.85s, expression: exp((0.01231705077391055*X2 - 0.01231705077391055*exp(X2 - X3**3 + sin(X2)))*(X1*X3**2 + X2)/X3)*sin(X1*X3), loss: 0.051091266323931045, form: F
+Episode: 5/10, time: 441.48s, expression: exp((0.01231705077391055*X2 - 0.01231705077391055*exp(X2 - X3**3 + sin(X2)))*(X1*X3**2 + X2)/X3)*sin(X1*X3), loss: 0.051091266323931045, form: F
+Episode: 6/10, time: 519.26s, expression: exp((0.01231705077391055*X2 - 0.01231705077391055*exp(X2 - X3**3 + sin(X2)))*(X1*X3**2 + X2)/X3)*sin(X1*X3), loss: 0.051091266323931045, form: X1*X2*exp(C*X2/X3)+F
+Episode: 7/10, time: 788.3s, expression: exp((0.028162501830953257*X2*X3 - 0.028162501830953257*exp(X2 - X3**4 + sin(X2)) - 0.028162501830953257*X3/X2)*log(X1*X3 + X2)/X3)*sin(X1*X3), loss: 0.03462283815417254, form: X3*log(X2)**2*sin(X1)/C+X3**2*sin(X1)+C*X2*X3*log(X2)*sin(X1)+F
+Episode: 8/10, time: 907.78s, expression: exp((0.028162501830953257*X2*X3 - 0.028162501830953257*exp(X2 - X3**4 + sin(X2)) - 0.028162501830953257*X3/X2)*log(X1*X3 + X2)/X3)*sin(X1*X3), loss: 0.03462283815417254, form: C*X3*sin(X1*X3)+C*sin(X1*X3**2)+F
+Episode: 9/10, time: 1114.34s, expression: exp((0.028162501830953257*X2*X3 - 0.028162501830953257*exp(X2 - X3**4 + sin(X2)) - 0.028162501830953257*X3/X2)*log(X1*X3 + X2)/X3)*sin(X1*X3), loss: 0.03462283815417254, form: X3**2*sin(X1)/C+C*X3*sin(X1)*sin(X3)+F
+Episode: 10/10, time: 1324.85s, expression: exp((0.028162501830953257*X2*X3 - 0.028162501830953257*exp(X2 - X3**4 + sin(X2)) - 0.028162501830953257*X3/X2)*log(X1*X3 + X2)/X3)*sin(X1*X3), loss: 0.03462283815417254, form: X1*X2*exp(-X2/X3)*exp(C*X2/X3)+X1*X2*exp(C*X2/X3)+F
+############ Pareto Boundary Program ############
+Expression:  exp((0.028684702188091826*x2*x3 - 0.028684702188091826*exp(x2 - x3**4 + sin(x2)))*log(x1*x3 + x2)/x3)*sin(x1*x3)
+Complexity:  42
+RMSE:  0.039012395613561124
+######### End Of This Expression #########
+Expression:  exp((0.027286622192213228*x2*x3 - 0.027286622192213228*x3 - 0.027286622192213228*exp(x2 - x3**4 + sin(x2)))*log(x1*x3 + x2)/x3)*sin(x1*x3)
+Complexity:  45
+RMSE:  0.036362249838937794
+######### End Of This Expression #########
+Expression:  exp((0.026402269874089033*x2*x3**2 - 0.026402269874089033*x3 - 0.026402269874089033*exp(x2 - x3**4 + sin(x2)))*log(x1*x3 + x2)/x3)*sin(x1*x3)
+Complexity:  48
+RMSE:  0.035351038188265876
+######### End Of This Expression #########
+Expression:  exp((0.028162501830953257*x2*x3 - 0.028162501830953257*exp(x2 - x3**4 + sin(x2)) - 0.028162501830953257*x3/x2)*log(x1*x3 + x2)/x3)*sin(x1*x3)
+Complexity:  49
+RMSE:  0.03462283815417254
+######### End Of This Expression #########
+############ RESULT ############
+Task:  avrami
+Task type:  num_500
+Number of programs in the Pareto front:  4
+Less Complexity pareto optimal programs:
+exp((0.028684702188091826*x2*x3 - 0.028684702188091826*exp(x2 - x3**4 + sin(x2)))*log(x1*x3 + x2)/x3)*sin(x1*x3)
+Complexity	R2
+42
+Validation RMSE:  0.039012395613561124
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  accurate
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 113.34s, expression: 3.924376042875933*X1*(-X2 + X3*exp(X3))*(-X2 + log(X3))/X3**2, loss: 1427768331859316.0, form: -X1*X2*log(X3)/(C*X3**2)+X1*X2**2/(C*X3**2)+X1*exp(X3)*log(X3)/(C*X3**2)-X1*X2*exp(X3)/(C*X3**2)+F
+Episode: 3/10, time: 195.83s, expression: X1*X2*(4.247742938762354 - X3)*(X2 + log(X3) + log(sin(X3)))/X3**2, loss: 351952185833193.3, form: -X1*X2*log(X3/X1)/X3-X1*log(X3/X1)*log(sin(X3))/X3+C*X1*X2*log(sin(X3))/X3**2+C*X1*log(X3/X1)*log(sin(X3))/X3**2-X1*X2**2/X3-X1*X2*log(sin(X3))/X3+C*X1*X2**2/X3**2+C*X1*X2*log(X3/X1)/X3**2+F
+Episode: 4/10, time: 286.15s, expression: X1*X2*(4.247742938762354 - X3)*(X2 + log(X3) + log(sin(X3)))/X3**2, loss: 351952185833193.3, form: C*X1*X2**2/X3**2+X1*X2**2*cos(exp(X2/(X1+X2)))/X3**2-X1*X2**2/X3+2*C*X1*X2**2/X3**2+F
+Episode: 5/10, time: 353.4s, expression: X1*X2*(4.247742938762354 - X3)*(X2 + log(X3) + log(sin(X3)))/X3**2, loss: 351952185833193.3, form: -X1*X2/(C*X3)+X1*X2**2/(2*C*X3**2)-3*X1*X2/(C*X3)+X1*X2**2/(C*X3**2)+F
+Episode: 6/10, time: 490.98s, expression: X1*X2*(4.247742938762354 - X3)*(X2 + log(X3) + log(sin(X3)))/X3**2, loss: 351952185833193.3, form: C*X1*X2**2/(X3**2*log(X2))-C*X1*X2/(X3*log(X2))+X1*X2*exp(X3)/(X3*log(X2))-X1*X2**2*exp(X3)/(X3**2*log(X2))+X1*X2*exp(2*X3)/(X3**2*log(X2))-C*X1*X2*exp(X3)/(X3**2*log(X2))+F
+Episode: 7/10, time: 748.78s, expression: X1*(-X1*X3**2 + X2*(4.328798850825532 - X3)*(X2 + log(sin(X3)**3))/X3**2), loss: 183869504397800.22, form: C*X1*X2*log(X3**3)/X3**2-X1*X2**2/X3+X1*X2/X3+C*X1*X2**2/X3**2-X1*X2*log(X3**3)/X3-X1*X2*log(X3**2/X2)/X3+C*X1*X2*log(X3**2/X2)/X3**2+F
+Episode: 8/10, time: 1063.37s, expression: X1*(-X1*X3**2 + X2*(4.328798850825532 - X3)*(X2 + log(sin(X3)**3))/X3**2), loss: 183869504397800.22, form: -2*X1*X2+C*X1*X2*sin(X2+X3)/X3**2-X1*X3-X1*X2*sin(X2+X3)/X3-X1*sin(X2+X3)-X1*X2**2/X3+C*X1*sin(X2+X3)/X3+C*X1*X2**2/X3**2+C*X1+2*C*X1*X2/X3-X1*X2+C*X1*X2*log(X3)/X3**2-X1*X2*log(X3)/X3+C*X1*X2/X3+F
+Episode: 9/10, time: 1479.28s, expression: X1*(-X1*X3**2 + X2*(4.328798850825532 - X3)*(X2 + log(sin(X3)**3))/X3**2), loss: 183869504397800.22, form: -X1*X2-C*X1*X2*sin(X1)/X3**2+X1*X2*sin(X1)/X3+X1*X2*cos(X1)/X3-X1*X2**2/X3+C*X1*X2**2/X3**2+C*X1*X2/X3-C*X1*X2*cos(X1)/X3**2-C*X1*X2*cos(X2*X3)/X3**2+X1*X2*cos(X2*X3)/X3+F
+Episode: 10/10, time: 1822.68s, expression: X1*(-X1*X3**2 + X2*(4.328798850825532 - X3)*(X2 + log(sin(X3)**3))/X3**2), loss: 183869504397800.22, form: C*X1*X2**2/X3**2-X1**2-C*X1*X2*log(X3**2)/X3**2-C*X1*X2*log(X3)/X3+2*C*X1*X2**2/X3**2-2*X1**2-2*C*X1*X2*log(X3**2)/X3**2-2*C*X1*X2*log(X3)/X3**2+F
+############ Pareto Boundary Program ############
+Expression:  x1*x2*(4.161519981650756 - x3)*(x2 + log(x2*x3**3))/x3**2
+Complexity:  22
+RMSE:  235667370603012.2
+######### End Of This Expression #########
+Expression:  x1*(-x1 + x2*(4.1618122136791476 - x3)*(x2 + log(x2*x3**3))/x3**2)
+Complexity:  27
+RMSE:  201411368164295.78
+######### End Of This Expression #########
+Expression:  x1*(-x1*x3 + x2*(4.328826642100884 - x3)*(x2 + log(sin(x3)**3))/x3**2)
+Complexity:  29
+RMSE:  199459160060454.22
+######### End Of This Expression #########
+Expression:  x1*(-x1*x3**2 + x2*(4.328798850825532 - x3)*(x2 + log(sin(x3)**3))/x3**2)
+Complexity:  32
+RMSE:  183869504397800.22
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  accurate
+Number of programs in the Pareto front:  4
+Less Complexity pareto optimal programs:
+x1*x2*(4.161519981650756 - x3)*(x2 + log(x2*x3**3))/x3**2
+Complexity	R2
+22
+Validation RMSE:  235667370603012.2
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  high_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 79.29s, expression: -3.9843835672351746*X2**2*(-X1 + log(X3))/X3**2 - log(X1/X2), loss: 734.6074031068091, form: -C*X1*X2**2/X3**2-E+C*X2**2/X3+F
+Episode: 3/10, time: 154.5s, expression: X2*(X1*X2 + X3)*(X2*X3*exp(cos(X3)) + (X2 + 1.464138197933086/X3)*exp(cos(X3)))/X3, loss: 305.0828046754436, form: X1*X2**3*exp(cos(X3))/X3-C*X1*X2**2*exp(cos(X3))/X3**2+X1*X2**3/X3+X2**2*exp(cos(X3))-C*X2*exp(cos(X3))/X3+X2**2+F
+Episode: 4/10, time: 257.75s, expression: 3.9999998919054076*X1*X2**2*sin(X3)/X3**3, loss: 4.058220311388084, form: C*X1*X2**2*sin(X2)-C*X1*X2**2/X3**2-C*X2**2*exp(X3)+C*X2**2+C*X2**2*X3+F
+Episode: 5/10, time: 353.49s, expression: 3.9999998919054076*X1*X2**2*sin(X3)/X3**3, loss: 4.058220311388084, form: X1*X2**2/(C*X3**2)-X2*exp(X3)-X2*exp(cos(X3))-2*X3-X2*log(X1)+F
+Episode: 6/10, time: 421.21s, expression: 3.9999998919054076*X1*X2**2*sin(X3)/X3**3, loss: 4.058220311388084, form: -log(X1)+C*X1*X2*sin(X2)/X3**2-C*X2**2*sin(X2)/X3+F
+Episode: 7/10, time: 714.84s, expression: 3.9999998919054076*X1*X2**2*sin(X3)/X3**3, loss: 4.058220311388084, form: -X1*X2**3/(2*X3)-X1*X2**2/2+C*X1*X2**2/(2*X3**2)-X1*X2**3/X3+F
+Episode: 8/10, time: 945.03s, expression: 3.9999998919054076*X1*X2**2*sin(X3)/X3**3, loss: 4.058220311388084, form: 3*X1*X2**2/(C*X3**2)-3*X2*X3-3*X2*exp(X3)-3*X2*sin(X3)-3*X2*cos(X2*X3)+F
+Episode: 9/10, time: 1239.17s, expression: 3.9999998919054076*X1*X2**2*sin(X3)/X3**3, loss: 4.058220311388084, form: -exp(X2*X3)+X1*exp(C/X2)/(2*X3**2)-2*X3-3*X3+F
+Episode: 10/10, time: 1465.22s, expression: 3.9999998919054076*X1*X2**2*sin(X3)/X3**3, loss: 4.058220311388084, form: exp(exp(5*X2)*exp(sin(X2))/(C+X3))/X2+F
+############ Pareto Boundary Program ############
+Expression:  3.9999998919054076*x1*x2**2*sin(x3)/x3**3
+Complexity:  15
+RMSE:  4.058220311388084
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  high_var
+Number of programs in the Pareto front:  1
+Less Complexity pareto optimal programs:
+3.9999998919054076*x1*x2**2*sin(x3)/x3**3
+Complexity	R2
+15
+Validation RMSE:  4.058220311388084
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  middle_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 101.83s, expression: 4.121602090653792*(X1 + X2*(X2 - (-X1 + X3)*(X2 - X3))/X3 - exp(X2*X3))/X3, loss: 4553790.008505544, form: -X2**2/(C*X3)+X1*X2**2/(C*X3**2)+X1/(C*X3)-exp(X3)/(C*X3)+X2/C-X1*X2/(C*X3)+F
+Episode: 3/10, time: 186.77s, expression: -X1 - 8.003642272823868*X2**2*(-X1/(2*X3) + exp(X2) + exp(X3))/X3, loss: 2306138.737661018, form: -X1+C*X2**3/X3-C*X1*X2**2/(2*X3**2)+C*X2**2*exp(X3)/X3-C*X1*X2**2/X3**2+C*X2**3*exp(X3)/X3+F
+Episode: 4/10, time: 284.11s, expression: 4.0248309090154598*X2**2*(X1 - exp(X2))/X3**2 - X2*(X1 - exp(X2)), loss: 1083405.8274132567, form: X2*exp(sin(X2))-X2**2*exp(X2)/(C*X3**2)-X1*X2+X1*X2**2/(C*X3**2)-X2**3/(C*X3**2)+F
+Episode: 5/10, time: 402.95s, expression: 4.0248309090154598*X2**2*(X1 - exp(X2))/X3**2 - X2*(X1 - exp(X2)), loss: 1083405.8274132567, form: X2**3*exp(-X3)+C*X1*X2**2*exp(-X3)/X3**2-C*X2*exp(X2)/X3+X1*X2**3*exp(-X3)/X3+X1*X2*exp(X2)*exp(-X3)/X3-X2**4+X2*exp(X2)*exp(-X3)-C*X2**3/X3+C*X2**2*exp(-X3)/X3+C*X1*exp(X2)*exp(-X3)/X3**2-X2**2*exp(X2)+C*exp(X2)*exp(-X3)/X3-X3*exp(X2)-C*exp(X2)/X2-X2**2*X3-C*X2+F
+Episode: 6/10, time: 521.72s, expression: 4.0248309090154598*X2**2*(X1 - exp(X2))/X3**2 - X2*(X1 - exp(X2)), loss: 1083405.8274132567, form: X1*exp(X2)*log(-C+X2+log(X2))/X3**2-X1*log(-C+X2+log(X2))/X3+exp(X2)*exp(sin(X2))*log(-C+X2+log(X2))/X3**2-exp(sin(X2))*log(-C+X2+log(X2))/X3+F
+Episode: 7/10, time: 783.88s, expression: -X1*X2 - X2*(-X1 + X2)/(X3**2*sin(0.25041461835036805/X2)), loss: 1046412.8377339328, form: -X1*X2+2*X1*X2/(X3**2*sin(C/(2*X2)))+2*X1*X2/(X3**2*sin(C/X2))-X3+F
+Episode: 8/10, time: 1005.85s, expression: -X1*X2 - X2*(-X1 + X2)/(X3**2*sin(0.25041461835036805/X2)), loss: 1046412.8377339328, form: -2*X2**3/X3+2*C*X2**3/X3**2-X2**2/X3+C*X2**2/X3**2-X1*X2**2/X3+C*X1*X2**2/X3**2-X2**3/X3+C*X2**3/X3**2+F
+Episode: 9/10, time: 1258.2s, expression: -X1*X2 - X2*(-X1 + X2)/(X3**2*sin(0.25041461835036805/X2)), loss: 1046412.8377339328, form: C/(X3**3+X3**2*exp(cos(exp(X3)))*sin(X3))+C/(X3**3*exp(cos(2*X3))+X3**3)+F
+Episode: 10/10, time: 1574.12s, expression: -X1*X2 - X2*(-X1 + X2)/(X3**2*sin(0.25041461835036805/X2)), loss: 1046412.8377339328, form: X1*exp(C*X2)/(X2*X3**2+X3**4/X2**2)+F
+############ Pareto Boundary Program ############
+Expression:  -x1*x2 + 4.001991319916361*x2**2*(x1 - 1)/x3**2
+Complexity:  18
+RMSE:  1207020.3715246224
+######### End Of This Expression #########
+Expression:  -x1*x2 + x1*x2/(x3**2*sin(0.2509102096991451/x2)) + x3**2
+Complexity:  28
+RMSE:  1077307.0351690345
+######### End Of This Expression #########
+Expression:  -x1*x2 - x2*(-x1 + x2)/(x3**2*sin(0.25041461835036805/x2))
+Complexity:  29
+RMSE:  1046412.8377339328
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  middle_var
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+-x1*x2 + 4.001991319916361*x2**2*(x1 - 1)/x3**2
+Complexity	R2
+18
+Validation RMSE:  1207020.3715246224
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  low_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 80.37s, expression: (-1.9922196525780616*X1 - 1.9922196525780616*exp(X3))*(-X2 + (-X2 + X3)*cos(X3))*(X2 + X3)/X3**2, loss: 5155586712.3803, form: -C*X1*X2**2/X3**2+C*X1*cos(X3)-C*X1*X2/X3-C*X1*X2**2*cos(X3)/X3**2+F
+Episode: 3/10, time: 154.92s, expression: (-1.9922196525780616*X1 - 1.9922196525780616*exp(X3))*(-X2 + (-X2 + X3)*cos(X3))*(X2 + X3)/X3**2, loss: 5155586712.3803, form: C*X1*X2**2/X3**2-X1-2*C*X1*X2+F
+Episode: 4/10, time: 219.5s, expression: (-1.9922196525780616*X1 - 1.9922196525780616*exp(X3))*(-X2 + (-X2 + X3)*cos(X3))*(X2 + X3)/X3**2, loss: 5155586712.3803, form: exp(1/X3)*exp(C/X3**2)+F
+Episode: 5/10, time: 295.75s, expression: (-1.9922196525780616*X1 - 1.9922196525780616*exp(X3))*(-X2 + (-X2 + X3)*cos(X3))*(X2 + X3)/X3**2, loss: 5155586712.3803, form: exp(C*log(X3)/X3)+X1+F
+Episode: 6/10, time: 435.49s, expression: (-1.9922196525780616*X1 - 1.9922196525780616*exp(X3))*(-X2 + (-X2 + X3)*cos(X3))*(X2 + X3)/X3**2, loss: 5155586712.3803, form: exp(C*exp(-exp(-1)*exp(X2/X1)*exp(-X3/X1)*exp(-log(X1)/(X1*X3)))/X3)+F
+Episode: 7/10, time: 713.7s, expression: (X1 + 2*X3 + cos(X1))*(1.989728075929069*X2 + X3 - 1.989728075929069*(-X2 + sin(X3))*cos(X3))/(X3*sin(X3/(X2 + X3))), loss: 1401262601.2489486, form: exp(2*X3)*exp(-C/(X3+sin(1)/(-X1+X2)))+exp(C/(X3+sin(1)/(-X1+X2)))+F
+Episode: 8/10, time: 882.62s, expression: (X1 + 2*X3 + cos(X1))*(1.989728075929069*X2 + X3 - 1.989728075929069*(-X2 + sin(X3))*cos(X3))/(X3*sin(X3/(X2 + X3))), loss: 1401262601.2489486, form: -2*X1*X2/C-X2**2/(C*X3)+2*X2*X3/C+X1*X2**2/(C*X3**2)+F
+Episode: 9/10, time: 1122.29s, expression: (X1 + 2*X3 + cos(X1))*(1.989728075929069*X2 + X3 - 1.989728075929069*(-X2 + sin(X3))*cos(X3))/(X3*sin(X3/(X2 + X3))), loss: 1401262601.2489486, form: exp(1/X3)*exp(-C/X3**2)+exp(cos(C+X3)/X3**2)+F
+Episode: 10/10, time: 1462.6s, expression: (X1 + 2*X3 + cos(X1))*(1.989728075929069*X2 + X3 - 1.989728075929069*(-X2 + sin(X3))*cos(X3))/(X3*sin(X3/(X2 + X3))), loss: 1401262601.2489486, form: E/(X1*X2*exp(C/X3)-X1*exp(C/X3))+E*exp(C/X3)/(X1*X2-X1)+F
+############ Pareto Boundary Program ############
+Expression:  (x1 + cos(x1))*(x2 + x3)*(1.9905070971884773*x2 + x3 - 1.9905070971884773*(-x2 + sin(x3))*cos(x3))/x3**2
+Complexity:  35
+RMSE:  1724529407.4637778
+######### End Of This Expression #########
+Expression:  (x2 + x3)*(x1 + x3 + cos(x1))*(1.9901210831318548*x2 + x3 - 1.9901210831318548*(-x2 + sin(x3))*cos(x3))/x3**2
+Complexity:  36
+RMSE:  1536718482.5722342
+######### End Of This Expression #########
+Expression:  (x2 + x3)*(x1 + 2*x3 + cos(x1))*(1.9897352185879384*x2 + x3 - 1.9897352185879384*(-x2 + sin(x3))*cos(x3))/x3**2
+Complexity:  38
+RMSE:  1422852709.2820725
+######### End Of This Expression #########
+Expression:  (x1 + 2*x3 + cos(x1))*(1.989728075929069*x2 + x3 - 1.989728075929069*(-x2 + sin(x3))*cos(x3))/(x3*sin(x3/(x2 + x3)))
+Complexity:  49
+RMSE:  1401262601.2489486
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  low_var
+Number of programs in the Pareto front:  4
+Less Complexity pareto optimal programs:
+(x1 + cos(x1))*(x2 + x3)*(1.9905070971884773*x2 + x3 - 1.9905070971884773*(-x2 + sin(x3))*cos(x3))/x3**2
+Complexity	R2
+35
+Validation RMSE:  1724529407.4637778
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  noise_0.02
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 305.57s, expression: -3.979505233258754*X1*X2*(-X2 + X3 - cos(X1 + X2))/X3**2, loss: 2490749468982187.5, form: X1*X2**2/(C*X3**2)+X1*X2*cos(X1+X2)/(C*X3**2)+F
+Episode: 3/10, time: 520.84s, expression: -3.979505233258754*X1*X2*(-X2 + X3 - cos(X1 + X2))/X3**2, loss: 2490749468982187.5, form: X2**3*exp(C*cos(exp(X3))/X3)+X2**3*exp(C)*exp(cos(exp(X3))/X3)+F
+Episode: 4/10, time: 721.4s, expression: -3.979505233258754*X1*X2*(-X2 + X3 - cos(X1 + X2))/X3**2, loss: 2490749468982187.5, form: C*X1*X2**2/X3**2-C*X1*X2/X3-C*X1*X2**2/X3**2+C*X1*X2/X3+F
+Episode: 5/10, time: 951.74s, expression: -3.979505233258754*X1*X2*(-X2 + X3 - cos(X1 + X2))/X3**2, loss: 2490749468982187.5, form: C*X1*X2**2/X3**2-C*X2**2*sin(log(X3)/X3)/X3**2+F
+Episode: 6/10, time: 1223.63s, expression: (-7.87993362787952*X1 - log(X2**2))*(2*X1 - X2**2/(2*X3**2)), loss: 1542982392207782.5, form: 2*X1**2+X1*X2**2/(2*C*X3**2)+X2**2*log(X1)/(2*X3**2)-X1*X2**2/(2*X3**2)-2*X1*log(X1)-2*X1**2/C+2*X1**2/C-X1*X2**2/(2*C*X3**2)+F
+Episode: 7/10, time: 1779.75s, expression: (-12.11457837112769*X1 - log(X1))*(X1 + X2*X3 + X2 - X2*(X2 + X3 + log(X3))/(3*X3**2)), loss: 982881336545885.1, form: C*X1*X2**2/X3**2+2*C*X2**2/X3**2+F
+Episode: 8/10, time: 2226.44s, expression: (-12.11457837112769*X1 - log(X1))*(X1 + X2*X3 + X2 - X2*(X2 + X3 + log(X3))/(3*X3**2)), loss: 982881336545885.1, form: -X1*X2/(C*X3**2)+X1*X2**2/(C*X3**2)+2*X2**2/(C*X3**2)-2*X1*X2/(C*X3**2)+F
+Episode: 9/10, time: 3136.51s, expression: (-12.11457837112769*X1 - log(X1))*(X1 + X2*X3 + X2 - X2*(X2 + X3 + log(X3))/(3*X3**2)), loss: 982881336545885.1, form: -X1*sin(exp(2*X3))/X3**2+X1*X2**2*sin(exp(2*X3))/X3**2-C*X1*X2**2/X3**2+C*X1/X3**2+1/X3+F
+Episode: 10/10, time: 3961.21s, expression: (-12.11457837112769*X1 - log(X1))*(X1 + X2*X3 + X2 - X2*(X2 + X3 + log(X3))/(3*X3**2)), loss: 982881336545885.1, form: -X2*exp(-C*exp(-X3))*exp(exp(-X3)*log(X1))*log(X2)+X2**2*exp(-C*exp(-X3))*exp(exp(-X3)*log(X1))/X3+X2+X3+X2**2*exp(-C*exp(-X3))*exp(-X3*exp(-X3))*exp(exp(-X3)*log(2))*exp(exp(-X3)*log(X1))/X3+F
+############ Pareto Boundary Program ############
+Expression:  (-11.84890482892499*x1 - log(x2))*(x1 + x2*x3 + x2 - x2*(x2 + x3)/(3*x3**2))
+Complexity:  26
+RMSE:  1311628421013384.5
+######### End Of This Expression #########
+Expression:  (-12.1234047301544*x1 - log(x2))*(x1 + x2*x3 + x2 - x2*(x2 + log(x3))/(3*x3**2))
+Complexity:  28
+RMSE:  999306663796853.5
+######### End Of This Expression #########
+Expression:  (-12.11457837112769*x1 - log(x1))*(x1 + x2*x3 + x2 - x2*(x2 + x3 + log(x3))/(3*x3**2))
+Complexity:  29
+RMSE:  982881336545885.1
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  noise_0.02
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+(-11.84890482892499*x1 - log(x2))*(x1 + x2*x3 + x2 - x2*(x2 + x3)/(3*x3**2))
+Complexity	R2
+26
+Validation RMSE:  1311628421013384.5
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  noise_0.05
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 191.19s, expression: 816.13687299403282*X1*X2*exp(-X3)/(X3*sin(X3)), loss: 2.944651969752808e+17, form: C*exp(-X3)/(X2*X3*sin(X3))+F
+Episode: 3/10, time: 372.89s, expression: 816.13687299403282*X1*X2*exp(-X3)/(X3*sin(X3)), loss: 2.944651969752808e+17, form: -C*log(X2)/(X2*X3**2)+X1/X3+C*log(X2)/(X2*X3**2)+F
+Episode: 4/10, time: 521.16s, expression: 21306438576.978302/(2*X2*X3**2 - log(X2/X1)), loss: 2.8253774699904403e+17, form: C/(2*X2*X3**2-X3)+F
+Episode: 5/10, time: 809.84s, expression: (1130572.8554313383*log(X1) - 1130572.8554313383*cos(X1 - X3))*log(X1*log(log(X2)))/X3**2, loss: 1.866750169144928e+17, form: -C*log(X1)*log(X1+X2-sin(log(X1)))/X3**2+C*log(X1+X2-sin(log(X1)))/X3-C*log(2)*log(X1)/X3**2+C*log(X1)/X3+C*log(2)/X3-C*log(X1)**2/X3**2+F
+Episode: 6/10, time: 1052.34s, expression: (1130572.8554313383*log(X1) - 1130572.8554313383*cos(X1 - X3))*log(X1*log(log(X2)))/X3**2, loss: 1.866750169144928e+17, form: C/(X2*X3**2+X3**2-X3*cos(exp(X3)))+C/(X2*X3**2-X3*cos(exp(X3)))+F
+Episode: 7/10, time: 1539.49s, expression: (1130572.8554313383*log(X1) - 1130572.8554313383*cos(X1 - X3))*log(X1*log(log(X2)))/X3**2, loss: 1.866750169144928e+17, form: C*log(X2)*sin(X3)/(X2*X3**3)+C*sin(X3)/(X2*X3**2)+F
+Episode: 8/10, time: 1924.36s, expression: 4.071738226888287*X1*X2**2/X3**2, loss: 1.809323021008426e+16, form: C*X2**2*log(log(X1+X2+log(X2)))/X3**2+C*X1*X2*log(log(X1+X2+log(X2)))/X3**2+C*X1*X2*log(X1+2*X2)/X3**2+C*X2**2*log(X1+2*X2)/X3**2-X1/X3+F
+Episode: 9/10, time: 2198.99s, expression: 4.071738226888287*X1*X2**2/X3**2, loss: 1.809323021008426e+16, form: X1*X2*X3/(-C+exp(X3))+X1**2*X2/(-C*X3+X3*exp(X3))+X3/(-C+exp(X3))+F
+Episode: 10/10, time: 2507.21s, expression: 4.071738226888287*X1*X2**2/X3**2, loss: 1.809323021008426e+16, form: C/(-2*X2*X3**2+X3)+X3/(-2*X2*X3**2+X3)+X1/(-2*X2*X3**2+X3)+F
+############ Pareto Boundary Program ############
+Expression:  4.071738226888287*x1*x2**2/x3**2
+Complexity:  11
+RMSE:  1.809323021008426e+16
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  noise_0.05
+Number of programs in the Pareto front:  1
+Less Complexity pareto optimal programs:
+4.071738226888287*x1*x2**2/x3**2
+Complexity	R2
+11
+Validation RMSE:  1.809323021008426e+16
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  noise_0.1
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 70.2s, expression: 3.5922741673579606*X1*X2*(X2 - X3)/X3**2, loss: 1.1877983709683354e+16, form: X1*X2**2/(C*X3**2)+F
+Episode: 3/10, time: 145.44s, expression: 3.59074895510774*X1*X2*(X2/X3 - X3)/X3, loss: 1.1707802861506788e+16, form: X1*X2**2/(C*X3**2)+F
+Episode: 4/10, time: 224.89s, expression: -0.7449890897820819*X2**2*(-X1 + X3 - 1)*log(X2)/X3**2, loss: 7422329937662450.0, form: C*X2**2*log(X2)**2/X3-C*X2**2*log(X2)**2/X3**2-C*X1*X2**2*log(X2)**2/X3**2+F
+Episode: 5/10, time: 303.41s, expression: X1*X2**2*(-X3**2 + X3 + 3.5388384198657943)/X3**2, loss: 6114250640160561.0, form: C*X1*X2**2/X3**2-X1*X2**2+2*X1*X2**2*log(X2)/X3**2+F
+Episode: 6/10, time: 394.56s, expression: X1*X2**2*(-X3**2 + X3 + 3.5388384198657943)/X3**2, loss: 6114250640160561.0, form: X2/(C*X3**2+C*X3*exp(2*X3))-X3+X3+F
+Episode: 7/10, time: 638.13s, expression: -0.7443372686906352*X2**2*(X1*(X3 - log(X2)/X3) - X2)/X3 - 0.7443372686906352*cos(X1), loss: 5158124158424701.0, form: -C*X1*X2**2*log(X2)/(2*X3**2)+C*X1*X2**2*log(X3)/X3+C*X1*X2**2*log(2)/X3-C*X1*X2**2*log(X2)/X3**2+F
+Episode: 8/10, time: 787.89s, expression: -0.7443372686906352*X2**2*(X1*(X3 - log(X2)/X3) - X2)/X3 - 0.7443372686906352*cos(X1), loss: 5158124158424701.0, form: C*X1*X2**2/X3**2+F
+Episode: 9/10, time: 1099.96s, expression: -0.7443372686906352*X2**2*(X1*(X3 - log(X2)/X3) - X2)/X3 - 0.7443372686906352*cos(X1), loss: 5158124158424701.0, form: C*X1*X2**2/X3**2+X1*X2**2*log(X2)/X3**2+X1*X2**2/X3**2+F
+Episode: 10/10, time: 1363.68s, expression: -0.7443372686906352*X2**2*(X1*(X3 - log(X2)/X3) - X2)/X3 - 0.7443372686906352*cos(X1), loss: 5158124158424701.0, form: C*X1*X2**2/X3**2+F
+############ Pareto Boundary Program ############
+Expression:  x1*x2**2*(-x3**2 + x3 + 3.5388384198657943)/x3**2
+Complexity:  19
+RMSE:  6114250640160561.0
+######### End Of This Expression #########
+Expression:  -0.6534849005235305*x1*x2**2*(x3 - log(2*x2)/x3)/x3
+Complexity:  24
+RMSE:  5548066956713055.0
+######### End Of This Expression #########
+Expression:  -0.7443372687641465*x2**2*(x1*(x3 - log(x2)/x3) - x2)/x3
+Complexity:  27
+RMSE:  5158124166178403.0
+######### End Of This Expression #########
+Expression:  -0.7443372686906352*x2**2*(x1*(x3 - log(x2)/x3) - x2)/x3 - 0.7443372686906352*cos(x1)
+Complexity:  34
+RMSE:  5158124158424701.0
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  noise_0.1
+Number of programs in the Pareto front:  4
+Less Complexity pareto optimal programs:
+x1*x2**2*(-x3**2 + x3 + 3.5388384198657943)/x3**2
+Complexity	R2
+19
+Validation RMSE:  6114250640160561.0
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  noise_0.2
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 64.0s, expression: exp(X3 + (exp(X3) - 0.6479331876942236)/X3**2), loss: 5.953499871079336e+16, form: exp(-C/X3**2)*exp(exp(X3)/X3**2)+F
+Episode: 3/10, time: 170.49s, expression: X1*X2**2*(-X3 + (0.055409369519526686*X2 - 0.055409369519526686*X3)/X3)/(2*X3), loss: 3283745186584883.0, form: C*X1*X2**3/X3**2-X1*X2**2/2+C*X1*X2**2/(2*X3)-C*X1*X2**3/(2*X3**2)+F
+Episode: 4/10, time: 254.09s, expression: X1*X2*(0.01652457582039493*X2 - log(X3))*(X2/X3 - X3*exp(X3))/X3, loss: 2570873886701863.0, form: X1*X2*X3*exp(X3)-X2+C*X2**2/X3-X1*X2**2/X3+C*X1*X2**3/X3**2-C*X1*X2**2*exp(X3)-X1*X2/X3+X1*X3*exp(X3)-C*X1*X2*exp(X3)+C*X1*X2**2/X3**2+F
+Episode: 5/10, time: 331.8s, expression: X1*X2*(0.01652457582039493*X2 - log(X3))*(X2/X3 - X3*exp(X3))/X3, loss: 2570873886701863.0, form: C*X1*X2**2/X3**2+C*X1*X2**2*log(X3/X1)/X3**2+X2**2/(X3*sin(X3/(C*X1)))+X2**2*log(X3/X1)/(X3*sin(X3/(C*X1)))+F
+Episode: 6/10, time: 416.97s, expression: X1*X2*(0.01652457582039493*X2 - log(X3))*(X2/X3 - X3*exp(X3))/X3, loss: 2570873886701863.0, form: X1*X2**2*log(X1)/(C*X3**2)-2*X1*X2**2/(C*X3)-X1*X2*log(X1)*log(log(X1))/(C*X3**2)+2*X1*X2*log(log(X1))/(C*X3)+2*X1*X2/C-X1*X2*log(X1)/(C*X3)+F
+Episode: 7/10, time: 717.78s, expression: X1*X2*(0.01652457582039493*X2 - log(X3))*(X2/X3 - X3*exp(X3))/X3, loss: 2570873886701863.0, form: -C*X1*X2**2*log(X2)*log(X3/X1)/X3**2+C*X1*X2**2*log(2)*log(X2)/X3**2-C*X1*X2*log(2)*log(X2)/X3+C*X1*X2*log(X2)*log(X3/X1)/X3+C*log(X3/X1)/(X3*sin(X3/(X1*X2**2*log(X2))))+F
+Episode: 8/10, time: 875.14s, expression: X1*X2*(0.01652457582039493*X2 - log(X3))*(X2/X3 - X3*exp(X3))/X3, loss: 2570873886701863.0, form: C*X1*X2**3/X3**2+F
+Episode: 9/10, time: 1139.61s, expression: X1*X2*(0.01652457582039493*X2 - log(X3))*(X2/X3 - X3*exp(X3))/X3, loss: 2570873886701863.0, form: X1*X2**2*exp(cos(C-X3)/X3)/X3+X1*X2*exp(cos(C-X3)/X3)+E*X1*X2**2*exp(-C/X3)/X3+F
+Episode: 10/10, time: 1427.64s, expression: X1*X2*(0.01652457582039493*X2 - log(X3))*(X2/X3 - X3*exp(X3))/X3, loss: 2570873886701863.0, form: X1*X2**2*log(C*X2**2*exp(-X3))/X3**2+X1*X2*X3+X1*X2**2*log(C*X2*log(X1*X3)/X3)/X3**2+F
+############ Pareto Boundary Program ############
+Expression:  x1*x2**2*(0.055358939484648845*x2/x3 - x3)/(2*x3)
+Complexity:  22
+RMSE:  3349531738294761.0
+######### End Of This Expression #########
+Expression:  x1*x2*(0.028524165751225874*x2 - x3)*(x2/x3 - x3*exp(x3))/x3
+Complexity:  27
+RMSE:  2755610929848828.5
+######### End Of This Expression #########
+Expression:  x1*x2*(0.01652457582039493*x2 - log(x3))*(x2/x3 - x3*exp(x3))/x3
+Complexity:  29
+RMSE:  2570873886701863.0
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  noise_0.2
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+x1*x2**2*(0.055358939484648845*x2/x3 - x3)/(2*x3)
+Complexity	R2
+22
+Validation RMSE:  3349531738294761.0
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  noise_0.5
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 120.01s, expression: (X1 - 4388.895840060272)*(X1*X2/X3 - X2)*log(sin(X3))/(X3 + X3/sin(X3)), loss: 8.996825232969211e+16, form: -C*X1*X2*log(sin(X3))/(X3**2+X3**2/sin(X3))+X1**2*X2*log(sin(X3))/(X3**2+X3**2/sin(X3))+F
+Episode: 3/10, time: 198.81s, expression: (X1 - 27878.898299776592)*(-X1*log(X2*exp(-X3 + cos(X1))) + X1)/X3**2, loss: 6.195016230442398e+16, form: -C*X1*log(X2*exp(-X3)*exp(cos(X1)))/X3**2+C*log(X1)/X3**2+C*X1/X3**2+F
+Episode: 4/10, time: 267.27s, expression: (X1 - 27878.898299776592)*(-X1*log(X2*exp(-X3 + cos(X1))) + X1)/X3**2, loss: 6.195016230442398e+16, form: -C*X2/X3**2+2*C*X1/X3**2+4*X1**2/X3**2-2*X1*X2/X3**2+F
+Episode: 5/10, time: 348.09s, expression: (X1 - 27878.898299776592)*(-X1*log(X2*exp(-X3 + cos(X1))) + X1)/X3**2, loss: 6.195016230442398e+16, form: exp(X1/(C+exp(exp(X3))+cos(exp(exp(X3)))))+X1+X2+F
+Episode: 6/10, time: 459.34s, expression: (X1 - 27878.898299776592)*(-X1*log(X2*exp(-X3 + cos(X1))) + X1)/X3**2, loss: 6.195016230442398e+16, form: X2**2/(C*X3**2)+X2/X3**2+X1*X2/(C*X3**2)+F
+Episode: 7/10, time: 722.37s, expression: (X1 - 27876.31152869701)*(X1 - (X1 - X3 + X2/X1)*log(X2*exp(-X3 + cos(X1))))/X3**2, loss: 6.1367180441634584e+16, form: C*X1*sin(log(log(-X3+log(X1))))/X3**2+X1*sin(log(log(log(X1))))/(C*X3**2)-X2+F
+Episode: 8/10, time: 917.71s, expression: (X1 - 27876.31152869701)*(X1 - (X1 - X3 + X2/X1)*log(X2*exp(-X3 + cos(X1))))/X3**2, loss: 6.1367180441634584e+16, form: C*X1*X2/(X3**2*log(X1)+X3**2*log(2))+X3+cos(X3)+F
+Episode: 9/10, time: 1163.14s, expression: (X1 - 27876.31152869701)*(X1 - (X1 - X3 + X2/X1)*log(X2*exp(-X3 + cos(X1))))/X3**2, loss: 6.1367180441634584e+16, form: C*X2**2/X3**2+C*X1*X2/X3**2+C*X2/X3**2+F
+Episode: 10/10, time: 1464.24s, expression: (X1 - 27876.31152869701)*(X1 - (X1 - X3 + X2/X1)*log(X2*exp(-X3 + cos(X1))))/X3**2, loss: 6.1367180441634584e+16, form: C*X2**2/X3**2+C*X1*X2/X3**2+X2**2/(C*X3**2)+X1*X2/(C*X3**2)+F
+############ Pareto Boundary Program ############
+Expression:  (x1 - 27878.898299776592)*(-x1*log(x2*exp(-x3 + cos(x1))) + x1)/x3**2
+Complexity:  27
+RMSE:  6.195016230442398e+16
+######### End Of This Expression #########
+Expression:  (-x1*log(x2*exp(-x3 + cos(x1))) + x1)*(x1 + x2 - 28029.779137508303)/x3**2
+Complexity:  28
+RMSE:  6.187328386360288e+16
+######### End Of This Expression #########
+Expression:  (x1 - 27876.31152869701)*(x1 - (x1 - x3 + x2/x1)*log(x2*exp(-x3 + cos(x1))))/x3**2
+Complexity:  37
+RMSE:  6.1367180441634584e+16
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  noise_0.5
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+(x1 - 27878.898299776592)*(-x1*log(x2*exp(-x3 + cos(x1))) + x1)/x3**2
+Complexity	R2
+27
+Validation RMSE:  6.195016230442398e+16
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  num_10
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 76.64s, expression: -3.977169558134551*X2**2*(-X1 + X3)/X3**2, loss: 552757893397402.7, form: C*X1*exp(-X3**2)/X3+F
+Episode: 3/10, time: 180.97s, expression: X2*(-X1*(X2 + log(X3**2/X2))*(X3 - 4.408955459160451)/X3**2 + X2), loss: 44561523787060.2, form: -X1*X2*log(X3/X1)/X3+X2*sin(X1+X3)-C*X1*X2**2/X3**2-X1*X2**2/X3-C*X1*X2*log(X3/X1)/X3**2-X1*X2*log(X3/X2)/X3-C*X1*X2*log(X3/X2)/X3**2+X2*sin(X2)+F
+Episode: 4/10, time: 341.67s, expression: X2*(-X1*(X2 + log(X3**2/X2))*(X3 - 4.408955459160451)/X3**2 + X2), loss: 44561523787060.2, form: -C*X1**2/X3**2-X1**3/X3**2+2*X1**2*X2/X3**2+F
+Episode: 5/10, time: 440.46s, expression: X2*(-X1*(X2 + log(X3**2/X2))*(X3 - 4.408955459160451)/X3**2 + X2), loss: 44561523787060.2, form: C*X1*X2-X1*X2+X1*X2*X3-X2**2+X2**2/X3-C*X1*X2**2/X3**2-X1*X2**2/X3-C*X1*X2/X3+X2**3/X3**2-X2+X1*X3+C*X1+F
+Episode: 6/10, time: 568.24s, expression: X2*(-X1*(X2 + log(X3**2/X2))*(X3 - 4.408955459160451)/X3**2 + X2), loss: 44561523787060.2, form: 2*X1*X2/(C*X3**2)+X1**2/(C*X3**2)+X1*X2**2/(C*X3**2)+X1*X2**2/(2*C*X3**2)+X1**2/(2*C*X3**2)+X1*X2/(C*X3**2)+F
+Episode: 7/10, time: 872.63s, expression: X2*(-3*X1 - X1*(X2 + log(X3**2/X2))*(X3 - 4.409803382567344)/X3**2 + X3), loss: 39887085509361.36, form: X1*exp(X3*exp(-X3))*exp(-exp(X3))/(C*sin(X3))+X1*exp(X3*exp(-X3))*exp(-exp(X3))/(2*C*sin(X3))+F
+Episode: 8/10, time: 1116.18s, expression: X2*(-3*X1 - X1*(X2 + log(X3**2/X2))*(X3 - 4.409803382567344)/X3**2 + X3), loss: 39887085509361.36, form: X1+X1*exp(C)*exp(-X3**2)/X3+F
+Episode: 9/10, time: 1461.22s, expression: X2*(-3*X1 - X1*(X2 + log(X3**2/X2))*(X3 - 4.409803382567344)/X3**2 + X3), loss: 39887085509361.36, form: C*X1*exp(-X3**2)/X3+F
+Episode: 10/10, time: 1725.21s, expression: X2*(-3*X1 - X1*(X2 + log(X3**2/X2))*(X3 - 4.409803382567344)/X3**2 + X3), loss: 39887085509361.36, form: -C*X1*exp(exp(cos(X3)))/X3+C*X1*sin(log(X3))/X3-C*X1/X3+X3+C*X1*exp(exp(cos(X3)))/X3-X3*exp(exp(cos(X3)))+F
+############ Pareto Boundary Program ############
+Expression:  x2*(-x1*(x2 + log(x3**2/x2))*(x3 - 4.4090089993040635)/x3**2 + x3)
+Complexity:  27
+RMSE:  44197320428333.23
+######### End Of This Expression #########
+Expression:  x2*(-x1*(x2 + log(x3*sin(x3)/x2))*(x3 - 4.409195452567885)/x3**2 + x3)
+Complexity:  28
+RMSE:  43600797407424.25
+######### End Of This Expression #########
+Expression:  x2*(-3*x1 - x1*(x2 + log(x3**2/x2))*(x3 - 4.409803382567344)/x3**2 + x3)
+Complexity:  30
+RMSE:  39887085509361.36
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  num_10
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+x2*(-x1*(x2 + log(x3**2/x2))*(x3 - 4.4090089993040635)/x3**2 + x3)
+Complexity	R2
+27
+Validation RMSE:  44197320428333.23
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  num_25
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 76.51s, expression: -4.139375853162737*X2**2*(X1/log(X2) - X1/X3)/X3, loss: 150573715109259.34, form: -C*X1*X2**2/X3**2-C*X2**3/X3**2+C*X2**3/X3+F
+Episode: 3/10, time: 144.19s, expression: -4.139375853162737*X2**2*(X1/log(X2) - X1/X3)/X3, loss: 150573715109259.34, form: -X2**3/(C*X3**2)-X2**2/(C*X3)+2*X1*X2**2/(C*X3**2)-X1+F
+Episode: 4/10, time: 247.16s, expression: X2**2*(-X1*exp(-1) + 4.022328646423626*X1/X3**2 - X2/X3), loss: 32378672248481.992, form: C*X1*X2**2/X3**2-X1*X2**2*exp(-1)-X2**3+X2**2*log(X3)+X2**2*X3+F
+Episode: 5/10, time: 320.65s, expression: X1*X2*(-X2 + (7.9236853881158025*X2 + 7.9236853881158025*exp(X3))/(X3*(X3 + sin(X3)))), loss: 4241861030359.5356, form: -X1*X2**2+C*X1*X2**2/(X3**2+X3*sin(X3))+2*C*X1*X2*X3/(X3**2+X3*sin(X3))+2*C*X1*X2**2/(X3**2+X3*sin(X3))+F
+Episode: 6/10, time: 389.76s, expression: X1*X2*(-X2 + (7.9236853881158025*X2 + 7.9236853881158025*exp(X3))/(X3*(X3 + sin(X3)))), loss: 4241861030359.5356, form: C*X1*X2/X3**2-2*C*X1*X2*exp(X3)/X3**2+C*X1*exp(2*X3)/X3**2+C*X1*X2**2/X3**2+C*X1*X2/X3**3-2*C*X1**2/X3+C*X3+2*C*X1**2/X3**2-C*X1*X2/X3+F
+Episode: 7/10, time: 638.76s, expression: (X1 + X3)*(-X2 + X3**2 + (7.998383753551611*X2 + 7.998383753551611*exp(X3))/(X3*(X3 + sin(X3))))*(X2 - X3**3 - exp(X3)), loss: 325758688949.1542, form: C*X1*X2**2/X3**2-X2**3/X3-X1*X2**2/X3+C*X2**3/X3**2+X2+F
+Episode: 8/10, time: 839.13s, expression: (X1 + X3)*(-X2 + X3**2 + (7.998383753551611*X2 + 7.998383753551611*exp(X3))/(X3*(X3 + sin(X3))))*(X2 - X3**3 - exp(X3)), loss: 325758688949.1542, form: 2*X1**2/C-X1*X2**2/(C*X3**2)+2*X1*X2/(C*X3)+X1**2/(C*X3)+X1**2/C+2*X1**2/(C*X3)+X1*X2*log(X3)/(C*X3**2)+F
+Episode: 9/10, time: 1145.3s, expression: (X1 + X3)*(-X2 + X3**2 + (7.998383753551611*X2 + 7.998383753551611*exp(X3))/(X3*(X3 + sin(X3))))*(X2 - X3**3 - exp(X3)), loss: 325758688949.1542, form: -X1*X2+sin(X3)-C*X1*X2**2/X3**2+X1**2/sin(X3)+C*X1**2/(X3*sin(X3))-X1*X2**2/X3-C*X1*X2/X3+X3+F
+Episode: 10/10, time: 1396.32s, expression: (X1 + X3)*(-X2 + X3**2 + (7.998383753551611*X2 + 7.998383753551611*exp(X3))/(X3*(X3 + sin(X3))))*(X2 - X3**3 - exp(X3)), loss: 325758688949.1542, form: C*X1*X2*exp(-2*X3)/X3+X1*X2*exp(-2*X3)/(C*X3)+X1*exp(-2*X3)/C+F
+############ Pareto Boundary Program ############
+Expression:  x1*(-x2 + x3 + (8.000390490138923*x2 + 8.000390490138923*exp(x3))/(x3*(x3 + sin(x3))))*(x2 - x3**3 - exp(x3))
+Complexity:  43
+RMSE:  549596004161.4029
+######### End Of This Expression #########
+Expression:  (x1 + x3)*(-x2 + x3 + (7.998294938210521*x2 + 7.998294938210521*exp(x3))/(x3*(x3 + sin(x3))))*(x2 - x3**3 - exp(x3))
+Complexity:  45
+RMSE:  489411684473.4404
+######### End Of This Expression #########
+Expression:  (x1 + x3)*(-x2 + x3**2 + (7.998383753551611*x2 + 7.998383753551611*exp(x3))/(x3*(x3 + sin(x3))))*(x2 - x3**3 - exp(x3))
+Complexity:  48
+RMSE:  325758688949.1542
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  num_25
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+x1*(-x2 + x3 + (8.000390490138923*x2 + 8.000390490138923*exp(x3))/(x3*(x3 + sin(x3))))*(x2 - x3**3 - exp(x3))
+Complexity	R2
+43
+Validation RMSE:  549596004161.4029
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  num_100
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 114.43s, expression: (X1 + X2**2/X3)*(X1 + exp(X3))*(2*cos(X3) + 1.9830450786263325)/X3, loss: 166209705776453.5, form: 2*X1*X2**2*cos(X3)/X3**2+C*X1*X2**2/X3**2+C*X1**2/X3+2*X1**2*cos(X3)/X3+F
+Episode: 3/10, time: 212.89s, expression: (X1 + X2**2/X3)*(X1 + exp(X3))*(2*cos(X3) + 1.9830450786263325)/X3, loss: 166209705776453.5, form: X1*X2**2*cos(X3)/X3**2-C*X1*X2**2/X3**2-X1*X2*exp(X3)*cos(X3)/X3**2+C*X1*X2*exp(X3)/X3**2+X1+sin(X3)+F
+Episode: 4/10, time: 298.3s, expression: (X1 + X2**2/X3)*(X1 + exp(X3))*(2*cos(X3) + 1.9830450786263325)/X3, loss: 166209705776453.5, form: X1*log(X3/X1)/X3-X1*X2*log(X3/X1)/X3-C*X1*X2**2/X3**2-X1*X2**2/X3+X1*X2/X3-C*X1*X2*log(X3/X1)/X3**2-X1*X2*log(X3/X1**2)/X3+X1*log(X3/X1**2)+X1*X2-C*X1*X2*log(X3/X1**2)/X3**2+F
+Episode: 5/10, time: 376.52s, expression: X2*(2*X1*X2/X3**2 + X2)*(exp(0.07239026129121207*X3) + cos(X3)), loss: 111040473672012.7, form: 2*X1*X2**2*cos(X3)/X3**2+2*X1*X2**2*exp(X3)*exp(C*X3)/X3**2-X2**2*cos(X3)/X3-X2**2*exp(C*X3)/X3+2*X1*X2**2*exp(C*X3)/X3**2+F
+Episode: 6/10, time: 474.21s, expression: (-X1 + X3)*(X1*X3 - 4.0045530235300335*X2**2*sin(X3)/X3)/X3**2, loss: 8734125284439.025, form: -X1*X2**2*sin(X3)/(C*X3**3)-X1*X2/X3**2+X2**2*sin(X3)/(C*X3**2)+X2/X3-C*X1*X2**2*sin(X3)/X3**3+C*X2**2*sin(X3)/X3**2+F
+Episode: 7/10, time: 734.76s, expression: (-X1 + X3*log(X2)/X2)*(-3.9990399832701073*X2**2*sin(X3)/X3 + X3*(X1*X3 - 2*X2))/X3**2, loss: 3164556934793.992, form: 1-2*C*X1**2+C*X1*X2**2/(2*X3**2)+F
+Episode: 8/10, time: 999.84s, expression: (-X1 + X3*log(X2)/X2)*(-3.9990399832701073*X2**2*sin(X3)/X3 + X3*(X1*X3 - 2*X2))/X3**2, loss: 3164556934793.992, form: C*X1*log(X3)/(X3*sin(X3/(X2+log(X3))))-X1*X2/sin(X3/(X2+log(X3)))+C*X1*X2/(X3*sin(X3/(X2+log(X3))))-X1*log(X3)/sin(X3/(X2+log(X3)))-2*X1*X2+C*X1*X2*log(X3)/X3**2-X1*X2*log(X3)/X3-X1*X2**2/X3+C*X1*X2**2/X3**2+2*C*X1*X2/X3+F
+Episode: 9/10, time: 1395.46s, expression: (-X1 + X3*log(X2)/X2)*(-3.9990399832701073*X2**2*sin(X3)/X3 + X3*(X1*X3 - 2*X2))/X3**2, loss: 3164556934793.992, form: -2*C*X1*X2**2/X3**2+C*X1*X2*log(X2*X3)/X3**2+X1*X2**2/X3**2-C*X1*exp(2*X3)*log(X2*X3)/X3**2+3*C*X1*X2*exp(2*X3)/X3**2-X1*X2*exp(2*X3)/X3**2-C*X1*exp(4*X3)/X3**2+C*X1*exp(4*X3)/X3**2+C*X1*exp(3*X3)/X3**2+2*C*X1*X2**2/X3**2-C*X1*X2*exp(X3)/X3**2-3*C*X1*X2*exp(2*X3)/X3**2+F
+Episode: 10/10, time: 1850.46s, expression: (-X1 + X3*log(X2)/X2)*(-3.9990399832701073*X2**2*sin(X3)/X3 + X3*(X1*X3 - 2*X2))/X3**2, loss: 3164556934793.992, form: X1*X2**2/(C*X3**2)-X1*X2*exp(X3)/(C*X3)+X1*X3*exp(X3)/C-X1*X2*exp(X3)/(C*X3**2)-X1*X2*X3/C+X1*exp(2*X3)/(C*X3)-X1*X2*exp(X3)/C+X1*exp(2*X3)/C+F
+############ Pareto Boundary Program ############
+Expression:  4.0023494847145535*x2*(x1 + x3)*(x2*sin(x3)/x3 - x3)/x3**2
+Complexity:  24
+RMSE:  6904813398353.53
+######### End Of This Expression #########
+Expression:  -x1*(x1*x3**2 - 4.000448799352731*x2**2*sin(x3)/x3)/x3**2
+Complexity:  28
+RMSE:  4485370848214.572
+######### End Of This Expression #########
+Expression:  -x1*(-3.9990238540125964*x2**2*sin(x3)/x3 + x3*(x1*x3 - 2*x2))/x3**2
+Complexity:  31
+RMSE:  3178558709443.375
+######### End Of This Expression #########
+Expression:  (-x1 + x3*log(x2)/x2)*(-3.9990399832701073*x2**2*sin(x3)/x3 + x3*(x1*x3 - 2*x2))/x3**2
+Complexity:  42
+RMSE:  3164556934793.992
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  num_100
+Number of programs in the Pareto front:  4
+Less Complexity pareto optimal programs:
+4.0023494847145535*x2*(x1 + x3)*(x2*sin(x3)/x3 - x3)/x3**2
+Complexity	R2
+24
+Validation RMSE:  6904813398353.53
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  num_200
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 92.57s, expression: X1*(-2*X1 - X2**2 + 8.1207675806473259*X2**2/X3)/(2*X3), loss: 2530202428760532.5, form: -X1**2/X3-X1*X2**2/X3+X1*X2**2/(C*X3**2)+F
+Episode: 3/10, time: 179.87s, expression: 3.9672598538050221*X1*(X2 - (X3 + log(X3))*exp(X3))*(X2 - exp(2*X3))/X3**2, loss: 1717573853298878.0, form: -X1*X2*exp(X3)/(C*X3)-X1*X2*exp(2*X3)/(C*X3**2)+X1*exp(3*X3)/(C*X3)+X1*X2**2/(C*X3**2)+X1*exp(3*X3)*log(X3)/(C*X3**2)-X1*X2*exp(X3)*log(X3)/(C*X3**2)+F
+Episode: 4/10, time: 303.37s, expression: 3.9672598538050221*X1*(X2 - (X3 + log(X3))*exp(X3))*(X2 - exp(2*X3))/X3**2, loss: 1717573853298878.0, form: -2*C*X1*X2/X3-X1*X2+X1*X2*cos(X3)/X3+C*X1*cos(X3)/X3+C*X1*X2*cos(X3)/X3**2-C*X1*X2**2/X3**2-X1*X2**2/X3-C*X1+C*X1*X2*exp(X3/X1)/X3**2+X1*X2*exp(X3/X1)/X3+C*X1*exp(X3/X1)/X3-C*X1*X2/X3+F
+Episode: 5/10, time: 393.82s, expression: 3.9672598538050221*X1*(X2 - (X3 + log(X3))*exp(X3))*(X2 - exp(2*X3))/X3**2, loss: 1717573853298878.0, form: -2*X1*X2*exp(X3)/(C*X3**2)-4*X1*X2/(C*X3)-X1/(C*X3)+X1*X2**2/(C*X3**2)-X1*X2*exp(X3)/(C*X3)-X1*X2*log(X3)/(C*X3**2)-2*X1*X2/(C*X3)+F
+Episode: 6/10, time: 488.58s, expression: 3.9672598538050221*X1*(X2 - (X3 + log(X3))*exp(X3))*(X2 - exp(2*X3))/X3**2, loss: 1717573853298878.0, form: -X1*X2*log(X3)/(C*X3**2)+X1*X2**2/(C*X3**2)+X1*exp(2*X3)*log(X3)/(C*X3**2)-X1*X2*exp(2*X3)/(C*X3**2)+1/C+2*X1*exp(X3)/(C*X3)-X1*X2*exp(X3)/(C*X3**2)+X1*exp(3*X3)/(C*X3**2)-2*X1*X2/(C*X3)+F
+Episode: 7/10, time: 846.36s, expression: -4.0102389035374913*(-X1 + X3)*(X2 - 2*X3*exp(X3 + sin(X3)))*(X2 - (3*X3 + sin(X3))*exp(X3))/X3**2, loss: 228173577158457.0, form: C*X1*X2+C*X1*X2*exp(X3)-C*X1*X2**2/X3**2+2*C*X1*X2*exp(X3)/X3+C*X1*X2*exp(sin(X3))/X3+F
+Episode: 8/10, time: 1072.53s, expression: -4.0102389035374913*(-X1 + X3)*(X2 - 2*X3*exp(X3 + sin(X3)))*(X2 - (3*X3 + sin(X3))*exp(X3))/X3**2, loss: 228173577158457.0, form: -2*C*X1**2-3*C*X1*X2/X3+C*X1*X2**2/X3**2-3*C*X1**2+2*C*X1**2*X3/X2-C*X1*X2/X3+2*C*X1**3*X3**2/X2**2+F
+Episode: 9/10, time: 1431.55s, expression: -4.0102389035374913*(-X1 + X3)*(X2 - 2*X3*exp(X3 + sin(X3)))*(X2 - (3*X3 + sin(X3))*exp(X3))/X3**2, loss: 228173577158457.0, form: X1*X2*cos(X3*exp(X3))/X3-X3-C*X1*X2**2/X3**2-X1*X2**2/X3+C*X1*X2*cos(X3*exp(X3))/X3**2+X1*X2*exp(X3)-X1+C*X1*X2*exp(X3)/X3+F
+Episode: 10/10, time: 1732.61s, expression: 3.9999946711553735*X1*X2**2*sin(X3)/X3**3 - X1, loss: 17252887352177.521, form: X1*X2**2*sin(X3)/(C*X3**3)+C*X1*X2**2*sin(X3)/X3**3-X1+F
+############ Pareto Boundary Program ############
+Expression:  3.999994076825177*x1*x2**2*sin(x3)/x3**3
+Complexity:  15
+RMSE:  17314628174163.004
+######### End Of This Expression #########
+Expression:  3.9999946711553735*x1*x2**2*sin(x3)/x3**3 - x1
+Complexity:  19
+RMSE:  17252887352177.521
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  num_200
+Number of programs in the Pareto front:  2
+Less Complexity pareto optimal programs:
+3.999994076825177*x1*x2**2*sin(x3)/x3**3
+Complexity	R2
+15
+Validation RMSE:  17314628174163.004
+############## END ##############
+############ TASK ############
+Task:  chain_dimension
+Task type:  num_500
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 71.89s, expression: X1*X2*(8.093283917324925 - X3)*(X2 + X3)/(2*X3**2), loss: 1.0573564076463328e+16, form: -X1*X2**2/(2*X3)+C*X1*X2**2/(2*X3**2)+F
+Episode: 3/10, time: 167.5s, expression: X1*(-X2 + 4.237534158610722*X2/X3)*(X2 + log(X3**2) + log(X1*X3**3))/X3, loss: 4067769026990913.5, form: -2*X1*X2+X1*X2*log(X3**3)/(C*X3**2)+X1*X2**2/(C*X3**2)-X1*log(X3**3)-X1*X2**2/X3-X1*X3-X1*X2*log(X3**3)/X3+X1*X2/(C*X3)+X1*X2*log(X3**2)/(C*X3**2)+X1*X2*sin(X3)/(C*X3**2)-X1*X2*log(X3**2)/X3-X1*X2*sin(X3)/X3+F
+Episode: 4/10, time: 246.7s, expression: X1*(X2 + X3)**2*(-X3*sin(X3) + 3.999319365722301)/X3**2, loss: 2864317447376018.5, form: C*X1*X2**2/X3**2-X1*X2**2*sin(X3)/X3-X1*X2*log(X3)*sin(X3)/X3+C*X1*X2*log(X3)/X3**2+C*X1*X2*sin(X3)/X3**2-X1*X2*sin(X3)**2/X3+F
+Episode: 5/10, time: 324.74s, expression: X1*(X2 + X3)**2*(-X3*sin(X3) + 3.999319365722301)/X3**2, loss: 2864317447376018.5, form: -X1*X2*exp(X3)/(C*X3**2)+X1*exp(X3)*log(X3)/(C*X3**2)-X1*X2*log(X3)/(C*X3**2)+X1*X2**2/(C*X3**2)-X2/(X3*sin(C*X3/(-X1*X2+X1*exp(X3))))+log(X3)/(X3*sin(C*X3/(-X1*X2+X1*exp(X3))))+F
+Episode: 6/10, time: 437.09s, expression: X1*(X2 + X3)**2*(-X3*sin(X3) + 3.999319365722301)/X3**2, loss: 2864317447376018.5, form: -X1*X2**2/(C*X3**2)+X1*X2*exp(X3)/C+C*X1*X2+X1*exp(X3)/X3+X1*exp(2*X3)+X1*exp(X3)-X1*X2*exp(X3)/X3**2-C*X1*X2**2/X3**2-X1*X2*exp(2*X3)/X3**2+C*X1*X2/X3+X1*exp(2*X3)/X3+F
+Episode: 7/10, time: 684.39s, expression: (-X1*exp(X3) + X2*(X1 - X3**2)/(2*X3))*(8.008313071849875*X2/X3 - X3*(X2 - exp(X3))), loss: 71310938173805.75, form: X1-C*X1*X2/(2*X3)+C*X1*X2**2/(2*X3**2)-X1*X2**2/2-X1*X2/(2*X3)+F
+Episode: 8/10, time: 909.86s, expression: (-X1*exp(X3) + X2*(X1 - X3**2)/(2*X3))*(8.008313071849875*X2/X3 - X3*(X2 - exp(X3))), loss: 71310938173805.75, form: C*X1*X2*log(X3**2)/X3**2+C*X1*X2*log(X3)/X3**2-X1*X2*log(X3)/X3-X1*X2**2/X3+C*X1*X2**2/X3**2-X1*X2*log(X3**2)/X3-X1*X2*cos(log(X1/X3))/X3+C*X1*X2*cos(log(X1/X3))/X3**2+F
+Episode: 9/10, time: 1289.03s, expression: (-X1*exp(X3) + X2*(X1 - X3**2)/(2*X3))*(8.008313071849875*X2/X3 - X3*(X2 - exp(X3))), loss: 71310938173805.75, form: -X1*exp(X3)*log(X3)/(C*X3**2)-X1*X2**2/(C*X3**2)+X1*X2*exp(X3)/(C*X3**2)+X1*X2*log(X3)/(C*X3**2)+X1*X2/(X3**2*sin(C/X2))-X1*cos(log(X3))/(X3**2*sin(C/X2))+F
+Episode: 10/10, time: 1613.48s, expression: (-X1*exp(X3) + X2*(X1 - X3**2)/(2*X3))*(8.008313071849875*X2/X3 - X3*(X2 - exp(X3))), loss: 71310938173805.75, form: 1-X1*X2**2/2+C*X1*X2/(2*X3)-C*X1*X2**2/(2*X3**2)+X1*X2*X3/2+X1+F
+############ Pareto Boundary Program ############
+Expression:  (-x2*x3 + 8.008140505821917*x2/x3)*(x1*x2/(2*x3) - x1*exp(x3))
+Complexity:  28
+RMSE:  85735920215182.52
+######### End Of This Expression #########
+Expression:  (-x2*x3 + (8.00237467103409*x2 - 8.00237467103409*x3)/x3)*(x1*x2/(2*x3) - x3*(x1*x3 + x1))
+Complexity:  35
+RMSE:  71419378751997.47
+######### End Of This Expression #########
+Expression:  (-x1*exp(x3) + x2*(x1 - x3**2)/(2*x3))*(8.008313071849875*x2/x3 - x3*(x2 - exp(x3)))
+Complexity:  41
+RMSE:  71310938173805.75
+######### End Of This Expression #########
+############ RESULT ############
+Task:  chain_dimension
+Task type:  num_500
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+(-x2*x3 + 8.008140505821917*x2/x3)*(x1*x2/(2*x3) - x1*exp(x3))
+Complexity	R2
+28
+Validation RMSE:  85735920215182.52
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  accurate
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  1.0*x1/x2
+Complexity:  7
+RMSE:  0.0
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  accurate
+Number of programs in the Pareto front:  1
+Less Complexity pareto optimal programs:
+1.0*x1/x2
+Complexity	R2
+7
+Validation RMSE:  0.0
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  high_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  0.002912854982375283/(2*x1 + 2*x2)
+Complexity:  12
+RMSE:  4.8691246247753354e-05
+######### End Of This Expression #########
+Expression:  x1*cos(x2)/(x2*(x1 + 0.9878523220479184))
+Complexity:  16
+RMSE:  1.1153949882692009e-05
+######### End Of This Expression #########
+Expression:  x1/(x1*exp(x1) - x1 + (x1 + x1/x2 + x2)/sin(x1 + 1.569265796638657) - sin(x1)/log(x2))
+Complexity:  45
+RMSE:  7.2145607273327635e-06
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  high_var
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+0.002912854982375283/(2*x1 + 2*x2)
+Complexity	R2
+12
+Validation RMSE:  4.8691246247753354e-05
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  middle_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  x1
+Complexity:  1
+RMSE:  0.010683511694590312
+######### End Of This Expression #########
+Expression:  sin(exp(x1) - 0.9992138276429517)
+Complexity:  8
+RMSE:  0.010662685593658862
+######### End Of This Expression #########
+Expression:  sin(x1)/(x2 - 1.549078552750957e-6*exp(exp(x1)))
+Complexity:  17
+RMSE:  1.4672057333948608e-11
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  middle_var
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+x1
+Complexity	R2
+1
+Validation RMSE:  0.010683511694590312
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  low_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  0.08575811692399611
+Complexity:  1
+RMSE:  1.0979652241758828
+######### End Of This Expression #########
+Expression:  (x1 + 1.6886448836461732e-17)/x2
+Complexity:  8
+RMSE:  5.653599325195074e-32
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  low_var
+Number of programs in the Pareto front:  2
+Less Complexity pareto optimal programs:
+0.08575811692399611
+Complexity	R2
+1
+Validation RMSE:  1.0979652241758828
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  noise_0.02
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 65.27s, expression: X1/(X2 - 1.7092905313383628e-9/X2**2), loss: 0.09244827258268809, form: X1/(C/X2+X2)+F
+Episode: 3/10, time: 133.8s, expression: X1/X2 + exp(-806.7803211674205*X2)/X2, loss: 0.09239215355059599, form: X1/X2+exp(C*X2)/X2**2+exp(C*X2)/X2+F
+Episode: 4/10, time: 190.55s, expression: X1/X2 + exp(-806.7803211674205*X2)/X2, loss: 0.09239215355059599, form: X1/(X2*sin(log(-C+X2)))+X1/(X2*sin(log(2*C+X1-X2)))+F
+Episode: 5/10, time: 269.85s, expression: X1*log(log(X1 - exp(cos(X2))*sin(X1*X2) + 14.485501119699618))/X2, loss: 0.09104056843098095, form: X1*log(log(C+X1-exp(cos(X2))*sin(X2)))/X2+X1*log(log(C-X1*exp(cos(X2))*sin(X2)+X1))/X2+F
+Episode: 6/10, time: 377.39s, expression: X1*log(log(X1 - exp(cos(X2))*sin(X1*X2) + 14.485501119699618))/X2, loss: 0.09104056843098095, form: X1/X2+C*X1/X2**4+C*X1**2/X2**3+F
+Episode: 7/10, time: 614.46s, expression: (2.1004604833563876e-5*X1**2*(exp(X2) + cos(X2))/(X2*sin(X1 + log(X2))) + X1)/X2, loss: 0.058434958002165485, form: X1/X2+C/(X2**2*cos(2*X1))+C/(X2**2*cos(X1**2+X1))+F
+Episode: 8/10, time: 786.66s, expression: (2.1004604833563876e-5*X1**2*(exp(X2) + cos(X2))/(X2*sin(X1 + log(X2))) + X1)/X2, loss: 0.058434958002165485, form: -C*exp(X2)*exp(exp(X1))/X2**2+X1/X2-C*X1*exp(X1)*exp(exp(X1))/X2**2+F
+Episode: 9/10, time: 995.9s, expression: (2.1004604833563876e-5*X1**2*(exp(X2) + cos(X2))/(X2*sin(X1 + log(X2))) + X1)/X2, loss: 0.058434958002165485, form: X1/(-C/X2+X2)+X1/(C/X2**2+X2)+F
+Episode: 10/10, time: 1280.16s, expression: X1*exp(-0.008588218756648022*X1**2*sin(log(X1/X2**2 + X2)))/X2, loss: 0.04604903802637857, form: X1*exp(-C*X1**3*sin(log(X2**2)))*exp(C*X1**2*X2*sin(log(X2**2)))/X2+X1*exp(-X1**2*sin(C*X1)*sin(log(X2**2)))*exp(X1*X2*sin(C*X1)*sin(log(X2**2)))/X2+F
+############ Pareto Boundary Program ############
+Expression:  x1*exp(-0.011053961651839618*x1*sin(log(x1/x2**2)))/x2
+Complexity:  22
+RMSE:  0.05746134914336473
+######### End Of This Expression #########
+Expression:  x1*exp(0.009179915280719654*x1**2*sin(log(x2**2)))/x2
+Complexity:  23
+RMSE:  0.05733920159068632
+######### End Of This Expression #########
+Expression:  x1*exp(-0.008588218863497104*x1**2*sin(log(x1/x2**2)))/x2
+Complexity:  25
+RMSE:  0.0499388157560175
+######### End Of This Expression #########
+Expression:  x1*exp(-0.008588218756648022*x1**2*sin(log(x1/x2**2 + x2)))/x2
+Complexity:  27
+RMSE:  0.04604903802637857
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  noise_0.02
+Number of programs in the Pareto front:  4
+Less Complexity pareto optimal programs:
+x1*exp(-0.011053961651839618*x1*sin(log(x1/x2**2)))/x2
+Complexity	R2
+22
+Validation RMSE:  0.05746134914336473
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  noise_0.05
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 74.68s, expression: X1*exp(-0.00021095552767505174/(X2**2*(-exp(X1) + log(X2))))/X2, loss: 0.20395133522473616, form: X1*exp(C/(X1*X2**2))/X2+F
+Episode: 3/10, time: 145.45s, expression: X1*(1 + (0.001143876306803372*X1 - 0.001143876306803372*X2)*log(X1)/X2)/X2, loss: 0.20015129250593766, form: X1/X2-C*X1**2*log(X1)/X2**2-C*X1*log(X1)/X2+C*X1**2*log(X1)/X2**2+F
+Episode: 4/10, time: 214.06s, expression: X1/X2 + (2.492890545700518e-5*X1 + 2.492890545700518e-5*X2 + 2.492890545700518e-5)/(X1*X2**3), loss: 0.19875315807516009, form: X1/X2+C/(X2**2*sin(X2))+C/(2*X2**3)+F
+Episode: 5/10, time: 325.63s, expression: X1/X2 + (2.492890545700518e-5*X1 + 2.492890545700518e-5*X2 + 2.492890545700518e-5)/(X1*X2**3), loss: 0.19875315807516009, form: X1**2/(C*X1*exp(-X1)/sin(X2)+X1*X2)+X1**2/(C*X1*exp(-X1)/X2+X1*X2)+F
+Episode: 6/10, time: 416.45s, expression: X1/X2 + (2.492890545700518e-5*X1 + 2.492890545700518e-5*X2 + 2.492890545700518e-5)/(X1*X2**3), loss: 0.19875315807516009, form: X1*exp(C*log(X1)*log(X2)/X2)/X2+X1*exp(C*X1*log(X1)/X2)/X2+F
+Episode: 7/10, time: 672.8s, expression: X1/X2 + (2.492890545700518e-5*X1 + 2.492890545700518e-5*X2 + 2.492890545700518e-5)/(X1*X2**3), loss: 0.19875315807516009, form: X1/(2*C*exp(X1)*log(X2)+X2)+X1/(C*X1*exp(X1)+C*exp(X1)*log(X2)+X2)+F
+Episode: 8/10, time: 855.15s, expression: X1/(X2 + 4.455092570029195e-5/(X2*(X1 + log(X2)))), loss: 0.19854678517952418, form: X1/(C/(X1*X2+X2*exp(X1))+X2)+X1/(C*exp(-X1)/X2+X2)+F
+Episode: 9/10, time: 1075.24s, expression: X1/(X2 + 4.455092570029195e-5/(X2*(X1 + log(X2)))), loss: 0.19854678517952418, form: X1/X2-C/(X2**2*sin(X2))+F
+Episode: 10/10, time: 1320.99s, expression: X1*exp((0.002167398591084524*X1 + 0.002167398591084524*X2)*log(X1)/sin(2*X2))/X2, loss: 0.175026003697556, form: X1*exp(C*X1*log(X1)/sin(2*X2))/X2+F
+############ Pareto Boundary Program ############
+Expression:  x1*(0.0002047650316842534*x1**3/x2 + 1)/x2
+Complexity:  18
+RMSE:  0.20161960827661002
+######### End Of This Expression #########
+Expression:  x1/(x2 + 4.455092570029195e-5/(x2*(x1 + log(x2))))
+Complexity:  21
+RMSE:  0.19854678517952418
+######### End Of This Expression #########
+Expression:  x1*exp(0.0021878699588403433*x1*log(x1)/sin(2*x2))/x2
+Complexity:  23
+RMSE:  0.18141714574310203
+######### End Of This Expression #########
+Expression:  x1*exp(x1*sin(0.002187870587206666*log(x1))/sin(2*x2))/x2
+Complexity:  27
+RMSE:  0.18141713121150008
+######### End Of This Expression #########
+Expression:  x1*exp((0.002167398591084524*x1 + 0.002167398591084524*x2)*log(x1)/sin(2*x2))/x2
+Complexity:  28
+RMSE:  0.175026003697556
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  noise_0.05
+Number of programs in the Pareto front:  5
+Less Complexity pareto optimal programs:
+x1*(0.0002047650316842534*x1**3/x2 + 1)/x2
+Complexity	R2
+18
+Validation RMSE:  0.20161960827661002
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  noise_0.1
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 75.03s, expression: 1.061684077201701*X1/X2, loss: 4.707626800907567, form: C*X1/X2+F
+Episode: 3/10, time: 126.71s, expression: 1.061684077201701*X1/X2, loss: 4.707626800907567, form: C*X1/X2+X1/(C*X2)+F
+Episode: 4/10, time: 211.61s, expression: (X1 + exp(-193.77164465635838*sin(X2))/X2)/X2, loss: 1.8603481160986444, form: X1/X2+exp(-X2)*exp(C*X2)/X2**2+sin(exp(X2/C))/X2**2+F
+Episode: 5/10, time: 262.2s, expression: (X1 + exp(-193.77164465635838*sin(X2))/X2)/X2, loss: 1.8603481160986444, form: C*X1/X2+F
+Episode: 6/10, time: 346.0s, expression: (X1 - 0.00018196798835946686*X1*exp(X1)*exp(-X2)*sin(log(X1*X2))*cos(exp(X1))/X2**2)/X2, loss: 0.7571564013764347, form: C*X1**2*sin(X1)*sin(log(X1*X2))/X2**3+X1/X2+C*X1**3*sin(log(X1*X2))/X2**3+F
+Episode: 7/10, time: 604.55s, expression: (X1 + (7.547527489078215e-5*X1 - 7.547527489078215e-5*(-X2 + sin(log(X1*X2)))*cos(exp(X1))/X2**2)*exp(2*X1)*exp(-X2))/X2, loss: 0.5213640826891878, form: X1*exp(C/(X2**4*sin(X2)))/X2+X1*exp(C/(2*X2**5))/X2+F
+Episode: 8/10, time: 784.49s, expression: (X1 + (7.547527489078215e-5*X1 - 7.547527489078215e-5*(-X2 + sin(log(X1*X2)))*cos(exp(X1))/X2**2)*exp(2*X1)*exp(-X2))/X2, loss: 0.5213640826891878, form: X1/(C/X2**4+X2)+F
+Episode: 9/10, time: 1027.51s, expression: (X1 + (7.547527489078215e-5*X1 - 7.547527489078215e-5*(-X2 + sin(log(X1*X2)))*cos(exp(X1))/X2**2)*exp(2*X1)*exp(-X2))/X2, loss: 0.5213640826891878, form: C*X1**2*sin(exp(X1))*sin(log(X2))/X2**2+X1/X2-C*X1**2*sin(exp(X1))*sin(log(X2))/X2**2+F
+Episode: 10/10, time: 1260.82s, expression: (X1 + (7.547527489078215e-5*X1 - 7.547527489078215e-5*(-X2 + sin(log(X1*X2)))*cos(exp(X1))/X2**2)*exp(2*X1)*exp(-X2))/X2, loss: 0.5213640826891878, form: F
+############ Pareto Boundary Program ############
+Expression:  (x1 - 0.0004811661137207885*x1*exp(-1)*exp(x1)*sin(log(x1*x2))*cos(exp(x1))/x2**2)/x2
+Complexity:  34
+RMSE:  0.7279581374670612
+######### End Of This Expression #########
+Expression:  (x1 + 0.0006353423730839411*x1*exp(x1)*sin(log(x1*x2))*cos(exp(x1))/(x2**2*log(x2)))/x2
+Complexity:  37
+RMSE:  0.6060766067491596
+######### End Of This Expression #########
+Expression:  (x1 - 0.00021494333440223457*x1*(-x2 + sin(log(x1*x2)))*exp(x1)*exp(-x2)*cos(exp(x1))/x2**2)/x2
+Complexity:  40
+RMSE:  0.5497228571246291
+######### End Of This Expression #########
+Expression:  (x1 + (7.605319994489099e-5*x2 - 7.605319994489099e-5*sin(log(x1*x2)))*exp(2*x1)*exp(-x2)*cos(exp(x1))/x2**2)/x2
+Complexity:  42
+RMSE:  0.5277373109890956
+######### End Of This Expression #########
+Expression:  (x1 - 0.00020018946341854183*x1*(-x2 + sin(log(x1*x2)))*exp(x1)*cos(exp(x1))/(x2**2*sin(x1 - x2)))/x2
+Complexity:  46
+RMSE:  0.5249176542135485
+######### End Of This Expression #########
+Expression:  (x1 + (7.547527489078215e-5*x1 - 7.547527489078215e-5*(-x2 + sin(log(x1*x2)))*cos(exp(x1))/x2**2)*exp(2*x1)*exp(-x2))/x2
+Complexity:  48
+RMSE:  0.5213640826891878
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  noise_0.1
+Number of programs in the Pareto front:  6
+Less Complexity pareto optimal programs:
+(x1 - 0.0004811661137207885*x1*exp(-1)*exp(x1)*sin(log(x1*x2))*cos(exp(x1))/x2**2)/x2
+Complexity	R2
+34
+Validation RMSE:  0.7279581374670612
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  noise_0.2
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 70.97s, expression: (exp(X1) - cos(X1))*exp(-0.7133279720233089*X1)/X2, loss: 5.784963748456413, form: F
+Episode: 3/10, time: 140.93s, expression: 0.18004608313533826*(X1 + X2 + cos(X2))*exp(sin(X1))/X2, loss: 5.4402592521710025, form: exp(-C)*exp(sin(X1))*sin(X1)/X2+F
+Episode: 4/10, time: 207.76s, expression: 0.18004608313533826*(X1 + X2 + cos(X2))*exp(sin(X1))/X2, loss: 5.4402592521710025, form: X1*log(X1*exp(C)*exp(-X1))/X2+2*X1**2*exp(C)*exp(-X1)/X2+F
+Episode: 5/10, time: 282.6s, expression: 0.18004608313533826*(X1 + X2 + cos(X2))*exp(sin(X1))/X2, loss: 5.4402592521710025, form: X1*cos(X1)/X2+X1*sin(-C+log(X1)+log(2))/X2-X1*sin(C-X1)/X2+F
+Episode: 6/10, time: 348.8s, expression: 0.18004608313533826*(X1 + X2 + cos(X2))*exp(sin(X1))/X2, loss: 5.4402592521710025, form: X1*sin(C-X1)/X2+F
+Episode: 7/10, time: 550.17s, expression: 0.18004608313533826*(X1 + X2 + cos(X2))*exp(sin(X1))/X2, loss: 5.4402592521710025, form: C*exp(sin(X1))*sin(X1)/X2+F
+Episode: 8/10, time: 697.56s, expression: 0.18004608313533826*(X1 + X2 + cos(X2))*exp(sin(X1))/X2, loss: 5.4402592521710025, form: C*X1/(X2**2+X2*exp(exp(exp(X2))))+X1*cos(log(X1))/X2+C*X1*exp(-exp(exp(X2)))/X2+F
+Episode: 9/10, time: 918.44s, expression: 0.18004608313533826*(X1 + X2 + cos(X2))*exp(sin(X1))/X2, loss: 5.4402592521710025, form: C/X2+sin(log(X1))/X2+X1/X2+C/(X2**2+X2*cos(X1))+F
+Episode: 10/10, time: 1159.96s, expression: 0.18004608313533826*(X1 + X2 + cos(X2))*exp(sin(X1))/X2, loss: 5.4402592521710025, form: X1*cos(log(X1))/(C+X2)+F
+############ Pareto Boundary Program ############
+Expression:  1.0430449693897605*x1/x2
+Complexity:  7
+RMSE:  17.265268340212405
+######### End Of This Expression #########
+Expression:  (exp(x1) - cos(x1))*exp(-0.7133279720233089*x1)/x2
+Complexity:  20
+RMSE:  5.784963748456413
+######### End Of This Expression #########
+Expression:  0.18004608313533826*(x1 + x2 + cos(x2))*exp(sin(x1))/x2
+Complexity:  24
+RMSE:  5.4402592521710025
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  noise_0.2
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+1.0430449693897605*x1/x2
+Complexity	R2
+7
+Validation RMSE:  17.265268340212405
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  noise_0.5
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+Episode: 2/10, time: 60.52s, expression: X1/(X2 + 1.0696273721394848e-6/X2**2), loss: 11.125988698224536, form: F
+Episode: 3/10, time: 137.53s, expression: X1*sin(0.16775502479208262/X2**3) + X1/X2, loss: 5.967736690119233, form: X1/X2+F
+Episode: 4/10, time: 200.96s, expression: X1*sin(0.16775502479208262/X2**3) + X1/X2, loss: 5.967736690119233, form: F
+Episode: 5/10, time: 263.12s, expression: X1*sin(0.18792242125536784/X2**3) + X1/X2, loss: 5.715927936768043, form: X1/X2+X1*sin(C/X2**3)+F
+Episode: 6/10, time: 327.08s, expression: X1*sin(0.18792242125536784/X2**3) + X1/X2, loss: 5.715927936768043, form: X1*cos(X2)/X2+X1/C-X1+C*X1+F
+Episode: 7/10, time: 567.93s, expression: -X1*sin(exp(-X1)*exp(X1/(2*X2))/(X1 - 4.06985514355294*X2)) + X1/X2, loss: 5.299001561640488, form: X1/(C*X1*sin(X2)**2-C*sin(X2)*sin(log(X2))+X2)+X1/(C*X2*sin(X2)-C*sin(X2)*sin(log(X2))+X2)+F
+Episode: 8/10, time: 756.47s, expression: -X1*sin(exp(-X1)*exp(X1/(2*X2))/(X1 - 4.06985514355294*X2)) + X1/X2, loss: 5.299001561640488, form: exp(X1)*exp(-exp(C)*exp(-sin(X1)))/X2+F
+Episode: 9/10, time: 976.43s, expression: -X1*sin(exp(-X1)*exp(X1/(2*X2))/(X1 - 4.06985514355294*X2)) + X1/X2, loss: 5.299001561640488, form: X1*exp(X1*log(X1)/(C+exp(X2)))/X2+F
+Episode: 10/10, time: 1220.23s, expression: -X1*sin(exp(-X1)*exp(X1/(2*X2))/(X1 - 4.06985514355294*X2)) + X1/X2, loss: 5.299001561640488, form: X1/X2+C*X1**2/(X2*sin(log(X1)+log(2)))+F
+############ Pareto Boundary Program ############
+Expression:  x1*sin(0.18792242125536784/x2**3) + x1/x2
+Complexity:  18
+RMSE:  5.715927936768043
+######### End Of This Expression #########
+Expression:  -x1*sin(exp(-x1)*exp(x1/(2*x2))/(x1 - 4.06985514355294*x2)) + x1/x2
+Complexity:  36
+RMSE:  5.299001561640488
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  noise_0.5
+Number of programs in the Pareto front:  2
+Less Complexity pareto optimal programs:
+x1*sin(0.18792242125536784/x2**3) + x1/x2
+Complexity	R2
+18
+Validation RMSE:  5.715927936768043
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  num_10
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  x1/x2 + 5.551115123125783e-17
+Complexity:  8
+RMSE:  7.703719777548943e-33
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  num_10
+Number of programs in the Pareto front:  1
+Less Complexity pareto optimal programs:
+x1/x2 + 5.551115123125783e-17
+Complexity	R2
+8
+Validation RMSE:  7.703719777548943e-33
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  num_25
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  x1/x2
+Complexity:  6
+RMSE:  0.0
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  num_25
+Number of programs in the Pareto front:  1
+Less Complexity pareto optimal programs:
+x1/x2
+Complexity	R2
+6
+Validation RMSE:  0.0
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  num_100
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  0.999999999999996*x1/x2
+Complexity:  7
+RMSE:  7.809182740896492e-27
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  num_100
+Number of programs in the Pareto front:  1
+Less Complexity pareto optimal programs:
+0.999999999999996*x1/x2
+Complexity	R2
+7
+Validation RMSE:  7.809182740896492e-27
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  num_200
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  exp(0.11477724811950775*x1)/x2
+Complexity:  10
+RMSE:  495.84166208639687
+######### End Of This Expression #########
+Expression:  exp(-0.7586996210646489*cos(x1))/x2
+Complexity:  13
+RMSE:  194.56727297509124
+######### End Of This Expression #########
+Expression:  exp(-0.6632501753080623*sin(exp(x1)))/x2
+Complexity:  15
+RMSE:  146.61953299040408
+######### End Of This Expression #########
+Expression:  x1*exp(-8.047120723222184e-18*sin(exp(x1**2)))/x2
+Complexity:  19
+RMSE:  0.0
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  num_200
+Number of programs in the Pareto front:  4
+Less Complexity pareto optimal programs:
+exp(0.11477724811950775*x1)/x2
+Complexity	R2
+10
+Validation RMSE:  495.84166208639687
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  num_500
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  0.30738359740966775/x2
+Complexity:  6
+RMSE:  44393.38824093036
+######### End Of This Expression #########
+Expression:  1.0000000000000002*x1/x2
+Complexity:  7
+RMSE:  3.255567156303812e-27
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  num_500
+Number of programs in the Pareto front:  2
+Less Complexity pareto optimal programs:
+0.30738359740966775/x2
+Complexity	R2
+6
+Validation RMSE:  44393.38824093036
+############## END ##############
+############ TASK ############
+Task:  heat_flow
+Task type:  accurate
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  0.876244399869508*x1*x3
+Complexity:  4
+RMSE:  5.652932466529959
+######### End Of This Expression #########
+Expression:  1.0*x1*x2*x3
+Complexity:  5
+RMSE:  0.0
+######### End Of This Expression #########
+############ RESULT ############
+Task:  heat_flow
+Task type:  accurate
+Number of programs in the Pareto front:  2
+Less Complexity pareto optimal programs:
+0.876244399869508*x1*x3
+Complexity	R2
+4
+Validation RMSE:  5.652932466529959
+############## END ##############
+############ TASK ############
+Task:  heat_flow
+Task type:  high_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  exp(0.0002852195439082969*x2*x3)
+Complexity:  6
+RMSE:  32.43342808965478
+######### End Of This Expression #########
+Expression:  x1*x3*sin(x2)
+Complexity:  7
+RMSE:  4.955168439242349
+######### End Of This Expression #########
+Expression:  1.3679982736262482*x1*x3*sin(x2)
+Complexity:  8
+RMSE:  1.378164222702598
+######### End Of This Expression #########
+Expression:  (x2*x3 + 0.00021664283013283264)*sin(x1)
+Complexity:  10
+RMSE:  3.1901402322107245e-12
+######### End Of This Expression #########
+############ RESULT ############
+Task:  heat_flow
+Task type:  high_var
+Number of programs in the Pareto front:  4
+Less Complexity pareto optimal programs:
+exp(0.0002852195439082969*x2*x3)
+Complexity	R2
+6
+Validation RMSE:  32.43342808965478
+############## END ##############
+############ TASK ############
+Task:  heat_flow
+Task type:  middle_var
+############ END ############
+
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: FToken e not in complexity dictionary
+Traceback (most recent call last):
+  File "/home/liwentao/RSRM/demo/demo.py", line 177, in <module>
+    pipeline(f"../polymer_formula/{task_t}/{task}.csv")
+  File "/home/liwentao/RSRM/demo/demo.py", line 129, in pipeline
+    cost += complexity[token.lower()]
+KeyError: 'e'

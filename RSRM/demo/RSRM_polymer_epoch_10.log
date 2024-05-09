@@ -1,0 +1,62 @@
+############ NEW START ############
+############ TASK ############
+Task:  plate_height
+Task type:  accurate
+############ END ############
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  log(x1 + 1.860682773946119)
+Complexity:  5
+RMSE:  125.90487623205989
+######### End Of This Expression #########
+Expression:  1.4293182299359224/x2
+Complexity:  6
+RMSE:  39.46171768185286
+######### End Of This Expression #########
+Expression:  x1/(x2 + 2.2604359733602698e-18*exp(x2))
+Complexity:  12
+RMSE:  0.0
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  accurate
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+log(x1 + 1.860682773946119)
+Complexity	R2
+5
+Validation RMSE:  125.90487623205989
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  high_var
+############ END ############
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F
+############ Pareto Boundary Program ############
+Expression:  x2*sin(0.000278204642454982*x2)
+Complexity:  8
+RMSE:  0.0003217596553305111
+######### End Of This Expression #########
+Expression:  -0.000701046016194758*log(x2)/x2
+Complexity:  9
+RMSE:  8.342706228102314e-05
+######### End Of This Expression #########
+Expression:  sin(x1 + 4.99785942571935e-10)/x2
+Complexity:  11
+RMSE:  3.031336226571858e-17
+######### End Of This Expression #########
+############ RESULT ############
+Task:  plate_height
+Task type:  high_var
+Number of programs in the Pareto front:  3
+Less Complexity pareto optimal programs:
+x2*sin(0.000278204642454982*x2)
+Complexity	R2
+8
+Validation RMSE:  0.0003217596553305111
+############## END ##############
+############ TASK ############
+Task:  plate_height
+Task type:  middle_var
+############ END ############
+Episode: 1/10, time: 0.0s, expression: None, loss: inf, form: F

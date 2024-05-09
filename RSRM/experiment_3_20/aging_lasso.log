@@ -1,0 +1,22 @@
+############ TASK ############
+Task:  polymer_aging
+Task type:  accuracy
+############ END ############
+回归表达式:
+#### expression 59.83 + 0.3680482110416098 * exp(x9) + 0.0052943666891890765 * 1/(x2) + 0.05054794536819213 * 1/(x4) + 0.04150107265193625 * 1/(x6) + 0.03368947264063928 * 1/(x8)
+#### clip_expression 59.83 + 0.3680 * exp(x9) + 0.0053 * 1/(x2) + 0.0505 * 1/(x4) + 0.0415 * 1/(x6) + 0.0337 * 1/(x8)
+#### origin result
+Train RMSE: 2.39962
+Train R^2: 0.66454
+Valid RMSE: 1.34505
+Valid R^2: 0.87798
+#### clip result
+Train RMSE: 2.39969
+Train R^2: 0.66453
+Valid RMSE: 1.34500
+Valid R^2: 0.87799
+########### END #########
+############ TASK ############
+Task:  polymer_aging
+Task type:  accuracy
+############ END ############

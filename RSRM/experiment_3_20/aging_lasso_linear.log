@@ -1,0 +1,18 @@
+############ TASK ############
+Task:  polymer_aging
+Task type:  accuracy
+############ END ############
+回归表达式:
+#### expression 78.03
+#### clip_expression 78.03
+#### origin result
+Train RMSE: 4.14310
+Train R^2: 0.00000
+Valid RMSE: 3.91451
+Valid R^2: -0.03352
+#### clip result
+Train RMSE: 4.14310
+Train R^2: -0.00000
+Valid RMSE: 3.91542
+Valid R^2: -0.03400
+########### END #########

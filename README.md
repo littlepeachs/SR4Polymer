@@ -1,5 +1,5 @@
 # SR4Polymer
-
+![Project Framework](./figs/framework.jpg "Project Framework")
 ## Description
 SR4Polymer is a project that focuses on Symbolic Regression (SR), a technique used in scientific computing to discover mathematical expressions that best fit given data. Specifically, SR4Polymer utilizes a critical evaluation framework to assess various symbolic regression methods suitable for discovering real scientific formulas.
 

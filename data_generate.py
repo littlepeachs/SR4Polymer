@@ -162,13 +162,10 @@ def generate_data_from_formula(formula, var_ranges, num_points, noise_level,y_na
         df.to_csv(f'./polymer_formula/{str(varriance)}_var/{formula_name}.csv', index=False)
     print(f"已将{num_points}个随机分布且带有噪声的数据点存储到'data.csv'文件中。")
 
-# 示例用法
-# formula = 'x1 ** 2 + x2 ** 2'  # 假设我们要生成符合y=x1^2+x2^2的数据点
-# var_ranges = {'x1': (0, 10), 'x2': (0, 10)}  # 自变量x1和x2的取值范围均为[0, 10]
-# all_params = [(50,0.0,None),(50,0.02,None),(50,0.05,None),(50,0.1,None),
-#               (100,0.0,None),(200,0.0,None),(500,0.0,None),
-#               (50,0.0,"low"),(50,0.0,"middle"),(50,0.0,"high")]
-all_params = [(50,0.2,None),(50,0.5,None)]
+
+all_params = [(50,0.0,None),(50,0.02,None),(50,0.05,None),(50,0.1,None),
+              (100,0.0,None),(200,0.0,None),(500,0.0,None),
+              (50,0.0,"low"),(50,0.0,"middle"),(50,0.0,"high")]
 formula_list = ['plate_height','heat_flow','chain_dimension','avrami']
 for formula_name in formula_list:
     for params in all_params:
